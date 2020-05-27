@@ -1,2 +1,3 @@
 # abc-analytics.github.io
-website pages
+website pages  
+my personal website, static files hosted on github pages
