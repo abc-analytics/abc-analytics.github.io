@@ -1,0 +1,121 @@
+
+<!--
+description: contact page
+date: 16/05/2020
+author: ABC
+using: manually written html/css 
+-->
+<!doctype html>
+<html>
+    <head>
+        <title>
+            ABC | Contact
+        </title>
+        
+        <link rel="stylesheet" href="css/css_contact.css" type="text/css">
+        <link rel="stylesheet" href="../global_assets/navigation_bar/css/css_navigation.css" type="text/css">
+        <link rel="icon" type="image/png" href="../global_assets/images/favicon.png">
+        
+        <!--add external api for icons, google map-->
+        <script src="https://kit.fontawesome.com/523f31e97f.js" crossorigin="anonymous"></script> 
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYrRpssqVLpHoO_ldJta-Ch70CvUThiLs&callback=initMap"></script>
+        <script src="css/abc_googlemap_call.js"></script>
+        
+        <meta name="description" content="Applied Bayesian Capital Analytics, Technology&#8745Finance">
+        <meta name="keywords" content="ABC contact us, ABC contact, Applied Bayesian Capital contact, ABC Analytics">
+        <meta name="author" content="ABC">
+        <meta name="robots" content="index">
+
+    </head>
+
+    <body ontouchstart="">
+
+        
+      <!--start, navigation menu code--> 
+      <main id="nav-menu-container">
+        
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox" id="hamburger"></label>
+
+        <section id="nav-menu">
+          <div id="popup-circle">
+
+            <div id="nav-menu-content">
+              <ul class="nav-menu-content-column">
+                <li><a href="#"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="../bookshelf/index.html"><i class="fas fa-book"></i> Books</a></li>
+                <li><a href="#"><i class="fab fa-python"></i> Notebook</a></li>
+                <li><a href="#"><i class="fab fa-wordpress"></i> Blog</a></li>
+                <li><a href="#"><i class="fas fa-chart-bar"></i> Charts</a></li>
+                
+              </ul>
+              <ul class="nav-menu-content-column">
+                <li><a href="#"><i class="fas fa-code"></i> Codes</a></li>
+                <li><a href="#"><i class="fas fa-folder-open"></i> Files</a></li>
+                <li><a href="#"><i class="fas fa-square-root-alt"></i> Problems</a></li>
+                <li><a href="../photos/index.html"><i class="fas fa-camera-retro"></i> Photos</a></li>
+                <li><a href="../contact/index.html"><i class="fas fa-mail-bulk"></i> Contact</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </section>
+
+      </main>
+      <!--end, navigation menu code--> 
+
+
+
+        <main id="main-container">
+
+            <section id="top-box">
+                <div id="top-msg1">Hola stranger</div>
+                <div id="top-msg2">give me a shout.</div>
+            </section>
+
+            <section id="middle-box">
+                
+                <div id="middle-left-box">
+                    
+                    <figure id="mail-open"></figure>
+
+                    <div id="email-address">
+                        abc-analytics@outlook.com
+                    </div>
+
+                </div>
+
+                <div id="middle-right-box">                    
+
+                    <div id="social-media">
+                        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100011338814729"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://vimeo.com/abcanalytics"><i class="fab fa-vimeo-v"></i></a>
+                        <a href="https://codepen.io/abc-analytics"><i class="fab fa-codepen"></i></a>     
+                        <a href="https://github.com/abc-analytics"><i class="fab fa-github"></i></a>
+                        <a href="https://community.rstudio.com/u/abc-analytics/"><i class="fab fa-r-project"></i></a>                        
+                        <a href="https://www.quantconnect.com/u/abc-analytics"><img src="images/quantconnect-icon.png"></a>
+                        <a href="https://www.quantopian.com/"><img src="images/quantopian-icon.png"></a>
+                        <a href="https://stackoverflow.com/users/13615381/abc"><i class="fab fa-stack-overflow"></i></a>
+                        <a href="https://www.quora.com/profile/Abc-Analytics"><i class="fab fa-quora"></i></a>
+                        <a href="https://www.reddit.com/"><i class="fab fa-reddit-alien"></i></a>
+                        <a href="https://medium.com/"><i class="fab fa-medium-m"></i></a>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section id="bottom-box">
+                <!--insert google map js api-->
+                <figure id="map"></figure>            
+            </section>
+
+        </main> 
+
+
+    </body>
+
+</html>
+  
+  
