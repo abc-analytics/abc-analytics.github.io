@@ -1,0 +1,16 @@
+:root {
+    --background-color: rgb(245,245,245);
+    --background-color-rgb: 245, 245, 245;
+    --font-color: rgb(72, 72, 72);
+    --font-color-rgb: 72, 72, 72;
+    --dark-background-color: rgb(50,50,50);
+    --dark-background-color-rgb: 50, 50, 50;
+    --dark-bg-font-color: rgb(240,240,240);
+    --dark-bg-font-color-rgb: 240, 240, 240;
+    --red-color: rgb(230, 63, 90);
+    --red-color-rgb: 230, 63, 90; 
+    --green-color: rgb(26, 188, 156);
+    --green-color-rgb: 26, 188, 156;
+    --blue-color: rgb(97,200,225);
+    --blue-color-rgb: 97, 200, 225;
+  }
