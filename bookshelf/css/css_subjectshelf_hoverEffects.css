@@ -1,0 +1,56 @@
+@import url("../../global_assets/css/css_colors.css");
+
+.subject:hover {
+    opacity: 1;
+}
+
+.subject:hover .subjectname {
+    color: var(--green-color);
+    font-weight: bold;
+  }
+  
+  .subjectname::before, .subjectname::after {
+    content: "";
+    width: 0; /*two empty points positioned at corner with 0-width/little height before/after subjectname, but width goes to 100 on hover*/
+    height: 2px;
+    position: absolute;
+    transition: all 0.5s linear;
+    background-color: var(--green-color);
+  }
+  
+  .subjectname span::before, .subjectname span::after {
+    content: "";
+    width: 2px;
+    height: 0; /*two empty points positioned at corner with 0-height/little width before/after subjectname, but height goes to 100 on hover*/
+    position: absolute;
+    transition: all 0.5s linear;
+    background-color: var(--green-color);
+  }
+  
+  .subjectname::before {
+    right: 0; /*setting the points at corners*/
+    top: 0;
+  }
+  
+  .subjectname::after {
+    left: 0;
+    bottom: 0;
+  }
+  
+  .subjectname span::before {
+    left: 0;
+    top: 0;
+  }
+  
+  .subjectname span::after {
+    right: 0;
+    bottom: 0;
+  }
+  
+  .subject:hover .subjectname::before, .subject:hover .subjectname::after {
+    width: 100%;
+  }
+  
+  .subject:hover .subjectname span::before, .subject:hover .subjectname span::after {
+    height: 100%;
+  }

@@ -1,0 +1,651 @@
+/*containing the shelf bg images for each subject*/
+
+/*computer science shelf*/
+#computerscience_r1c1 {
+    background-image: url(../images/bookshelf_3col/r1c1.png);
+}
+#computerscience_r1c2 {
+    background-image: url(../images/bookshelf_3col/r1c2.png);
+}
+#computerscience_r1c3 {
+    background-image: url(../images/bookshelf_3col/r1c3.png);
+}
+#computerscience_r2c1 {
+    background-image: url(../images/bookshelf_3col/r2c1.png);
+}
+#computerscience_r2c2 {
+    background-image: url(../images/bookshelf_3col/r2c2.png);
+}
+#computerscience_r2c3 {
+    background-image: url(../images/bookshelf_3col/r2c3.png);
+}
+#computerscience_r3c1 {
+    background-image: url(../images/bookshelf_3col/r3c1.png);
+}
+#computerscience_r3c2 {
+    background-image: url(../images/bookshelf_3col/r3c2.png);
+}
+#computerscience_r3c3 {
+    background-image: url(../images/bookshelf_3col/r3c3.png);
+}
+#computerscience_r4c1 {
+    background-image: url(../images/bookshelf_3col/r4c1.png);
+}
+#computerscience_r4c2 {
+    background-image: url(../images/bookshelf_3col/r4c2.png);
+}
+#computerscience_r4c3 {
+    background-image: url(../images/bookshelf_3col/r4c3.png);
+}
+#computerscience_r5c1 {
+    background-image: url(../images/bookshelf_3col/r5c1.png);
+}
+#computerscience_r5c2 {
+    background-image: url(../images/bookshelf_3col/r5c2.png);
+}
+#computerscience_r5c3 {
+    background-image: url(../images/bookshelf_3col/r5c3.png);
+}
+
+ /*programming shelf*/
+ #programming_r1c1 {
+    background-image: url(../images/bookshelf_6col/r1c1.png);
+  }
+  #programming_r1c2 {
+    background-image: url(../images/bookshelf_6col/r1c2.png);
+  }
+  #programming_r1c3 {
+    background-image: url(../images/bookshelf_6col/r1c3.png);
+  }
+  #programming_r1c4 {
+    background-image: url(../images/bookshelf_6col/r1c4.png);
+  }
+  #programming_r1c5 {
+    background-image: url(../images/bookshelf_6col/r1c5.png);
+  }
+  #programming_r1c6 {
+    background-image: url(../images/bookshelf_6col/r1c6.png);
+  }
+  #programming_r2c1 {
+    background-image: url(../images/bookshelf_6col/r2c1.png);
+  }
+  #programming_r2c2 {
+    background-image: url(../images/bookshelf_6col/r2c2.png);
+  }
+  #programming_r2c3 {
+    background-image: url(../images/bookshelf_6col/r2c3.png);
+  }
+  #programming_r2c4 {
+    background-image: url(../images/bookshelf_6col/r2c4.png);
+  }
+  #programming_r2c5 {
+    background-image: url(../images/bookshelf_6col/r2c5.png);
+  }
+  #programming_r2c6 {
+    background-image: url(../images/bookshelf_6col/r2c6.png);
+  }
+  #programming_r3c1 {
+    background-image: url(../images/bookshelf_6col/r3c1.png);
+  }
+  #programming_r3c2 {
+    background-image: url(../images/bookshelf_6col/r3c2.png);
+  }
+  #programming_r3c3 {
+    background-image: url(../images/bookshelf_6col/r3c3.png);
+  }
+  #programming_r3c4 {
+    background-image: url(../images/bookshelf_6col/r3c4.png);
+  }
+  #programming_r3c5 {
+    background-image: url(../images/bookshelf_6col/r3c5.png);
+  }
+  #programming_r3c6 {
+    background-image: url(../images/bookshelf_6col/r3c6.png);
+  }
+  #programming_r4c1 {
+    background-image: url(../images/bookshelf_6col/r4c1.png);
+  }
+  #programming_r4c2 {
+    background-image: url(../images/bookshelf_6col/r4c2.png);
+  }
+  #programming_r4c3 {
+    background-image: url(../images/bookshelf_6col/r4c3.png);
+  }
+  #programming_r4c4 {
+    background-image: url(../images/bookshelf_6col/r4c4.png);
+  }
+  #programming_r4c5 {
+    background-image: url(../images/bookshelf_6col/r4c5.png);
+  }
+  #programming_r4c6 {
+    background-image: url(../images/bookshelf_6col/r4c6.png);
+  }
+  #programming_r5c1 {
+    background-image: url(../images/bookshelf_6col/r5c1.png);
+  }
+  #programming_r5c2 {
+    background-image: url(../images/bookshelf_6col/r5c2.png);
+  }
+  #programming_r5c3 {
+    background-image: url(../images/bookshelf_6col/r5c3.png);
+  }
+  #programming_r5c4 {
+    background-image: url(../images/bookshelf_6col/r5c4.png);
+  }
+  #programming_r5c5 {
+    background-image: url(../images/bookshelf_6col/r5c5.png);
+  }
+  #programming_r5c6 {
+    background-image: url(../images/bookshelf_6col/r5c6.png);
+  }
+
+  /*technology shelf*/
+#technology_r1c1 {
+    background-image: url(../images/bookshelf_7col/r1c1.png);
+  }
+  #technology_r1c2 {
+    background-image: url(../images/bookshelf_7col/r1c2.png);
+  }
+  #technology_r1c3 {
+    background-image: url(../images/bookshelf_7col/r1c3.png);
+  }
+  #technology_r1c4 {
+    background-image: url(../images/bookshelf_7col/r1c4.png);
+  }
+  #technology_r1c5 {
+    background-image: url(../images/bookshelf_7col/r1c5.png);
+  }
+  #technology_r1c6 {
+    background-image: url(../images/bookshelf_7col/r1c6.png);
+  }
+  #technology_r1c7 {
+    background-image: url(../images/bookshelf_7col/r1c7.png);
+  }
+  #technology_r2c1 {
+    background-image: url(../images/bookshelf_7col/r2c1.png);
+  }
+  #technology_r2c2 {
+    background-image: url(../images/bookshelf_7col/r2c2.png);
+  }
+  #technology_r2c3 {
+    background-image: url(../images/bookshelf_7col/r2c3.png);
+  }
+  #technology_r2c4 {
+    background-image: url(../images/bookshelf_7col/r2c4.png);
+  }
+  #technology_r2c5 {
+    background-image: url(../images/bookshelf_7col/r2c5.png);
+  }
+  #technology_r2c6 {
+    background-image: url(../images/bookshelf_7col/r2c6.png);
+  }
+  #technology_r2c7 {
+    background-image: url(../images/bookshelf_7col/r2c7.png);
+  }
+  #technology_r3c1 {
+    background-image: url(../images/bookshelf_7col/r3c1.png);
+  }
+  #technology_r3c2 {
+    background-image: url(../images/bookshelf_7col/r3c2.png);
+  }
+  #technology_r3c3 {
+    background-image: url(../images/bookshelf_7col/r3c3.png);
+  }
+  #technology_r3c4 {
+    background-image: url(../images/bookshelf_7col/r3c4.png);
+  }
+  #technology_r3c5 {
+    background-image: url(../images/bookshelf_7col/r3c5.png);
+  }
+  #technology_r3c6 {
+    background-image: url(../images/bookshelf_7col/r3c6.png);
+  }
+  #technology_r3c7 {
+    background-image: url(../images/bookshelf_7col/r3c7.png);
+  }
+  #technology_r4c1 {
+    background-image: url(../images/bookshelf_7col/r4c1.png);
+  }
+  #technology_r4c2 {
+    background-image: url(../images/bookshelf_7col/r4c2.png);
+  }
+  #technology_r4c3 {
+    background-image: url(../images/bookshelf_7col/r4c3.png);
+  }
+  #technology_r4c4 {
+    background-image: url(../images/bookshelf_7col/r4c4.png);
+  }
+  #technology_r4c5 {
+    background-image: url(../images/bookshelf_7col/r4c5.png);
+  }
+  #technology_r4c6 {
+    background-image: url(../images/bookshelf_7col/r4c6.png);
+  }
+  #technology_r4c7 {
+    background-image: url(../images/bookshelf_7col/r4c7.png);
+  }
+  #technology_r5c1 {
+    background-image: url(../images/bookshelf_7col/r5c1.png);
+  }
+  #technology_r5c2 {
+    background-image: url(../images/bookshelf_7col/r5c2.png);
+  }
+  #technology_r5c3 {
+    background-image: url(../images/bookshelf_7col/r5c3.png);
+  }
+  #technology_r5c4 {
+    background-image: url(../images/bookshelf_7col/r5c4.png);
+  }
+  #technology_r5c5 {
+    background-image: url(../images/bookshelf_7col/r5c5.png);
+  }
+  #technology_r5c6 {
+    background-image: url(../images/bookshelf_7col/r5c6.png);
+  }
+  #technology_r5c7 {
+    background-image: url(../images/bookshelf_7col/r5c7.png);
+  }
+
+  /*statistics shelf*/
+#statistics_r1c1 {
+    background-image: url(../images/bookshelf_4col/r1c1.png);
+}
+#statistics_r1c2 {
+    background-image: url(../images/bookshelf_4col/r1c2.png);
+}
+#statistics_r1c3 {
+    background-image: url(../images/bookshelf_4col/r1c3.png);
+}
+#statistics_r1c4 {
+  background-image: url(../images/bookshelf_4col/r1c4.png);
+}
+#statistics_r2c1 {
+    background-image: url(../images/bookshelf_4col/r2c1.png);
+}
+#statistics_r2c2 {
+    background-image: url(../images/bookshelf_4col/r2c2.png);
+}
+#statistics_r2c3 {
+    background-image: url(../images/bookshelf_4col/r2c3.png);
+}
+#statistics_r2c4 {
+  background-image: url(../images/bookshelf_4col/r2c4.png);
+}
+#statistics_r3c1 {
+    background-image: url(../images/bookshelf_4col/r3c1.png);
+}
+#statistics_r3c2 {
+    background-image: url(../images/bookshelf_4col/r3c2.png);
+}
+#statistics_r3c3 {
+    background-image: url(../images/bookshelf_4col/r3c3.png);
+}
+#statistics_r3c4 {
+  background-image: url(../images/bookshelf_4col/r3c4.png);
+}
+#statistics_r4c1 {
+    background-image: url(../images/bookshelf_4col/r4c1.png);
+}
+#statistics_r4c2 {
+    background-image: url(../images/bookshelf_4col/r4c2.png);
+}
+#statistics_r4c3 {
+    background-image: url(../images/bookshelf_4col/r4c3.png);
+}
+#statistics_r4c4 {
+  background-image: url(../images/bookshelf_4col/r4c4.png);
+}
+#statistics_r5c1 {
+    background-image: url(../images/bookshelf_4col/r5c1.png);
+}
+#statistics_r5c2 {
+    background-image: url(../images/bookshelf_4col/r5c2.png);
+}
+#statistics_r5c3 {
+    background-image: url(../images/bookshelf_4col/r5c3.png);
+}
+#statistics_r5c4 {
+  background-image: url(../images/bookshelf_4col/r5c4.png);
+}
+
+/*mathematics shelf*/
+#mathematics_r1c1 {
+    background-image: url(../images/bookshelf_2col/r1c1.png);
+}
+#mathematics_r1c2 {
+    background-image: url(../images/bookshelf_2col/r1c2.png);
+}
+#mathematics_r2c1 {
+    background-image: url(../images/bookshelf_2col/r2c1.png);
+}
+#mathematics_r2c2 {
+    background-image: url(../images/bookshelf_2col/r2c2.png);
+}
+#mathematics_r3c1 {
+    background-image: url(../images/bookshelf_2col/r3c1.png);
+}
+#mathematics_r3c2 {
+    background-image: url(../images/bookshelf_2col/r3c2.png);
+}
+#mathematics_r4c1 {
+    background-image: url(../images/bookshelf_2col/r4c1.png);
+}
+#mathematics_r4c2 {
+    background-image: url(../images/bookshelf_2col/r4c2.png);
+}
+#mathematics_r5c1 {
+    background-image: url(../images/bookshelf_2col/r5c1.png);
+}
+#mathematics_r5c2 {
+    background-image: url(../images/bookshelf_2col/r5c2.png);
+}
+
+/*finance shelf*/
+#finance_r1c1 {
+    background-image: url(../images/bookshelf_6col/r1c1.png);
+  }
+  #finance_r1c2 {
+    background-image: url(../images/bookshelf_6col/r1c2.png);
+  }
+  #finance_r1c3 {
+    background-image: url(../images/bookshelf_6col/r1c3.png);
+  }
+  #finance_r1c4 {
+    background-image: url(../images/bookshelf_6col/r1c4.png);
+  }
+  #finance_r1c5 {
+    background-image: url(../images/bookshelf_6col/r1c5.png);
+  }
+  #finance_r1c6 {
+    background-image: url(../images/bookshelf_6col/r1c6.png);
+  }
+  #finance_r2c1 {
+    background-image: url(../images/bookshelf_6col/r2c1.png);
+  }
+  #finance_r2c2 {
+    background-image: url(../images/bookshelf_6col/r2c2.png);
+  }
+  #finance_r2c3 {
+    background-image: url(../images/bookshelf_6col/r2c3.png);
+  }
+  #finance_r2c4 {
+    background-image: url(../images/bookshelf_6col/r2c4.png);
+  }
+  #finance_r2c5 {
+    background-image: url(../images/bookshelf_6col/r2c5.png);
+  }
+  #finance_r2c6 {
+    background-image: url(../images/bookshelf_6col/r2c6.png);
+  }
+  #finance_r3c1 {
+    background-image: url(../images/bookshelf_6col/r3c1.png);
+  }
+  #finance_r3c2 {
+    background-image: url(../images/bookshelf_6col/r3c2.png);
+  }
+  #finance_r3c3 {
+    background-image: url(../images/bookshelf_6col/r3c3.png);
+  }
+  #finance_r3c4 {
+    background-image: url(../images/bookshelf_6col/r3c4.png);
+  }
+  #finance_r3c5 {
+    background-image: url(../images/bookshelf_6col/r3c5.png);
+  }
+  #finance_r3c6 {
+    background-image: url(../images/bookshelf_6col/r3c6.png);
+  }
+  #finance_r4c1 {
+    background-image: url(../images/bookshelf_6col/r4c1.png);
+  }
+  #finance_r4c2 {
+    background-image: url(../images/bookshelf_6col/r4c2.png);
+  }
+  #finance_r4c3 {
+    background-image: url(../images/bookshelf_6col/r4c3.png);
+  }
+  #finance_r4c4 {
+    background-image: url(../images/bookshelf_6col/r4c4.png);
+  }
+  #finance_r4c5 {
+    background-image: url(../images/bookshelf_6col/r4c5.png);
+  }
+  #finance_r4c6 {
+    background-image: url(../images/bookshelf_6col/r4c6.png);
+  }
+  #finance_r5c1 {
+    background-image: url(../images/bookshelf_6col/r5c1.png);
+  }
+  #finance_r5c2 {
+    background-image: url(../images/bookshelf_6col/r5c2.png);
+  }
+  #finance_r5c3 {
+    background-image: url(../images/bookshelf_6col/r5c3.png);
+  }
+  #finance_r5c4 {
+    background-image: url(../images/bookshelf_6col/r5c4.png);
+  }
+  #finance_r5c5 {
+    background-image: url(../images/bookshelf_6col/r5c5.png);
+  }
+  #finance_r5c6 {
+    background-image: url(../images/bookshelf_6col/r5c6.png);
+  }  
+
+  /*economics shelf*/
+#economics_r1c1 {
+    background-image: url(../images/bookshelf_3col/r1c1.png);
+}
+#economics_r1c2 {
+    background-image: url(../images/bookshelf_3col/r1c2.png);
+}
+#economics_r1c3 {
+    background-image: url(../images/bookshelf_3col/r1c3.png);
+}
+#economics_r2c1 {
+    background-image: url(../images/bookshelf_3col/r2c1.png);
+}
+#economics_r2c2 {
+    background-image: url(../images/bookshelf_3col/r2c2.png);
+}
+#economics_r2c3 {
+    background-image: url(../images/bookshelf_3col/r2c3.png);
+}
+#economics_r3c1 {
+    background-image: url(../images/bookshelf_3col/r3c1.png);
+}
+#economics_r3c2 {
+    background-image: url(../images/bookshelf_3col/r3c2.png);
+}
+#economics_r3c3 {
+    background-image: url(../images/bookshelf_3col/r3c3.png);
+}
+#economics_r4c1 {
+    background-image: url(../images/bookshelf_3col/r4c1.png);
+}
+#economics_r4c2 {
+    background-image: url(../images/bookshelf_3col/r4c2.png);
+}
+#economics_r4c3 {
+    background-image: url(../images/bookshelf_3col/r4c3.png);
+}
+#economics_r5c1 {
+    background-image: url(../images/bookshelf_3col/r5c1.png);
+}
+#economics_r5c2 {
+    background-image: url(../images/bookshelf_3col/r5c2.png);
+}
+#economics_r5c3 {
+    background-image: url(../images/bookshelf_3col/r5c3.png);
+}
+
+/*business shelf*/
+#business_r1c1 {
+    background-image: url(../images/bookshelf_4col/r1c1.png);
+}
+#business_r1c2 {
+    background-image: url(../images/bookshelf_4col/r1c2.png);
+}
+#business_r1c3 {
+    background-image: url(../images/bookshelf_4col/r1c3.png);
+}
+#business_r1c4 {
+  background-image: url(../images/bookshelf_4col/r1c4.png);
+}
+#business_r2c1 {
+    background-image: url(../images/bookshelf_4col/r2c1.png);
+}
+#business_r2c2 {
+    background-image: url(../images/bookshelf_4col/r2c2.png);
+}
+#business_r2c3 {
+    background-image: url(../images/bookshelf_4col/r2c3.png);
+}
+#business_r2c4 {
+  background-image: url(../images/bookshelf_4col/r2c4.png);
+}
+#business_r3c1 {
+    background-image: url(../images/bookshelf_4col/r3c1.png);
+}
+#business_r3c2 {
+    background-image: url(../images/bookshelf_4col/r3c2.png);
+}
+#business_r3c3 {
+    background-image: url(../images/bookshelf_4col/r3c3.png);
+}
+#business_r3c4 {
+  background-image: url(../images/bookshelf_4col/r3c4.png);
+}
+#business_r4c1 {
+    background-image: url(../images/bookshelf_4col/r4c1.png);
+}
+#business_r4c2 {
+    background-image: url(../images/bookshelf_4col/r4c2.png);
+}
+#business_r4c3 {
+    background-image: url(../images/bookshelf_4col/r4c3.png);
+}
+#business_r4c4 {
+  background-image: url(../images/bookshelf_4col/r4c4.png);
+}
+#business_r5c1 {
+    background-image: url(../images/bookshelf_4col/r5c1.png);
+}
+#business_r5c2 {
+    background-image: url(../images/bookshelf_4col/r5c2.png);
+}
+#business_r5c3 {
+    background-image: url(../images/bookshelf_4col/r5c3.png);
+}
+#business_r5c4 {
+  background-image: url(../images/bookshelf_4col/r5c4.png);
+}
+
+/*games shelf*/
+#games_r1c1 {
+    background-image: url(../images/bookshelf_2col/r1c1.png);
+}
+#games_r1c2 {
+    background-image: url(../images/bookshelf_2col/r1c2.png);
+}
+#games_r2c1 {
+    background-image: url(../images/bookshelf_2col/r2c1.png);
+}
+#games_r2c2 {
+    background-image: url(../images/bookshelf_2col/r2c2.png);
+}
+#games_r3c1 {
+    background-image: url(../images/bookshelf_2col/r3c1.png);
+}
+#games_r3c2 {
+    background-image: url(../images/bookshelf_2col/r3c2.png);
+}
+#games_r4c1 {
+    background-image: url(../images/bookshelf_2col/r4c1.png);
+}
+#games_r4c2 {
+    background-image: url(../images/bookshelf_2col/r4c2.png);
+}
+#games_r5c1 {
+    background-image: url(../images/bookshelf_2col/r5c1.png);
+}
+#games_r5c2 {
+    background-image: url(../images/bookshelf_2col/r5c2.png);
+}
+
+/*science & others shelf*/
+#science_others_r1c1 {
+    background-image: url(../images/bookshelf_5col/r1c1.png);
+  }
+  #science_others_r1c2 {
+    background-image: url(../images/bookshelf_5col/r1c2.png);
+  }
+  #science_others_r1c3 {
+    background-image: url(../images/bookshelf_5col/r1c3.png);
+  }
+  #science_others_r1c4 {
+    background-image: url(../images/bookshelf_5col/r1c4.png);
+  }
+  #science_others_r1c5 {
+    background-image: url(../images/bookshelf_5col/r1c5.png);
+  }
+  #science_others_r2c1 {
+    background-image: url(../images/bookshelf_5col/r2c1.png);
+  }
+  #science_others_r2c2 {
+    background-image: url(../images/bookshelf_5col/r2c2.png);
+  }
+  #science_others_r2c3 {
+    background-image: url(../images/bookshelf_5col/r2c3.png);
+  }
+  #science_others_r2c4 {
+    background-image: url(../images/bookshelf_5col/r2c4.png);
+  }
+  #science_others_r2c5 {
+    background-image: url(../images/bookshelf_5col/r2c5.png);
+  }
+  #science_others_r3c1 {
+    background-image: url(../images/bookshelf_5col/r3c1.png);
+  }
+  #science_others_r3c2 {
+    background-image: url(../images/bookshelf_5col/r3c2.png);
+  }
+  #science_others_r3c3 {
+    background-image: url(../images/bookshelf_5col/r3c3.png);
+  }
+  #science_others_r3c4 {
+    background-image: url(../images/bookshelf_5col/r3c4.png);
+  }
+  #science_others_r3c5 {
+    background-image: url(../images/bookshelf_5col/r3c5.png);
+  }
+  #science_others_r4c1 {
+    background-image: url(../images/bookshelf_5col/r4c1.png);
+  }
+  #science_others_r4c2 {
+    background-image: url(../images/bookshelf_5col/r4c2.png);
+  }
+  #science_others_r4c3 {
+    background-image: url(../images/bookshelf_5col/r4c3.png);
+  }
+  #science_others_r4c4 {
+    background-image: url(../images/bookshelf_5col/r4c4.png);
+  }
+  #science_others_r4c5 {
+    background-image: url(../images/bookshelf_5col/r4c5.png);
+  }
+  #science_others_r5c1 {
+    background-image: url(../images/bookshelf_5col/r5c1.png);
+  }
+  #science_others_r5c2 {
+    background-image: url(../images/bookshelf_5col/r5c2.png);
+  }
+  #science_others_r5c3 {
+    background-image: url(../images/bookshelf_5col/r5c3.png);
+  }
+  #science_others_r5c4 {
+    background-image: url(../images/bookshelf_5col/r5c4.png);
+  }
+  #science_others_r5c5 {
+    background-image: url(../images/bookshelf_5col/r5c5.png);
+  }  
