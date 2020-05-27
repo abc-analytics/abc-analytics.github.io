@@ -1,0 +1,50 @@
+<!--
+description: a bookshelf for a particular broad subject (such as statistics, economics), where sub-fields (such as regression, macroeconomics) are listed to link to their respective shelves
+date: 10/05/2020
+corresponding css: css_subjectshelf.css  
+corresponding css version: 1.0 
+-->
+<html>  
+<head>
+    <title>
+        ABC Books
+    </title>
+    <link rel="stylesheet" href="../css/css_subjectshelf_index.css" type="text/css"> <!--must include stylesheet-->
+    <link rel="icon" type="image/png" href="../../global_assets/images/favicon.png">
+</head>
+
+
+<body id="computerscience">
+        
+   
+        <main class="subjectshelf">
+            
+            <!--this subject bookshelf is sliced into 5 rows and 3 columns (5x3)
+            each subject is class subject, class emptysubject when a slot is empty (ie has no subject)-->
+            <a href="algorithmtheorybooks.html" class="subject" id="computerscience_r1c1"><div class="subjectname"><span>Algorithms (Theory)</span></div></a>
+            <a href="algorithmpracticebooks.html" class="subject" id="computerscience_r1c2"><div class="subjectname"><span>Algorithms (Practice)</span></div></a>
+            <a href="functionalprogrammingbooks.html" class="subject" id="computerscience_r1c3"><div class="subjectname"><span>Algorithms (Functional)</span></div></a>
+
+            <a href="aibooks.html" class="subject" id="computerscience_r2c1"><div class="subjectname"><span>Artificial Intelligence</span></div></a>
+            <a href="machinelearningbooks.html" class="subject subject_machinelearning" id="computerscience_r2c2"><div class="subjectname"><span>Machine Learning</span></div></a>
+            <a class="emptysubject emptysubject_machinelearning" id="computerscience_r2c3"></a>
+            
+            <a href="neuralnetworksbooks.html" class="subject" id="computerscience_r3c1"><div class="subjectname"><span>Neural Networks</span></div></a>
+            <a href="bayesiannetworksbooks.html" class="subject" id="computerscience_r3c2"><div class="subjectname"><span>Bayesian Networks</span></div></a>
+            <a href="geneticalgorithmsbooks.html" class="subject" id="computerscience_r3c3"><div class="subjectname"><span>Genetic Programming</span></div></a>
+
+            <a href="classificationbooks.html" class="subject" id="computerscience_r4c1"><div class="subjectname"><span>Classification</span></div></a>
+            <a href="naturallanguageprocessingbooks.html" class="subject" id="computerscience_r4c2"><div class="subjectname"><span>NLP</span></div></a>
+            <a href="computerorganizationbooks.html" class="subject" id="computerscience_r4c3"><div class="subjectname"><span>Computer Organization</span></div></a>
+
+            <a class="emptysubject" id="computerscience_r5c1"></a>
+            <a class="emptysubject" id="computerscience_r5c2"></a>
+            <a class="emptysubject" id="computerscience_r5c3"></a>
+      
+        </main>    
+        <!--end of subject shelf-->
+    
+    
+
+</body>
+</html>
