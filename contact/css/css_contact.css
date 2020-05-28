@@ -109,20 +109,11 @@ body {
 }
 
 #social-media a, #social-media img {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     flex: 1 1 30%;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.8rem;
+    height: 1.8rem;
     text-align: center;
-}
-
-#social-media i:hover {
-    transform: translate(-2px, -2px);
-    text-shadow: 1px 1px 3px rgba(var(--font-color-rgb),0.7);
-}
-
-#social-media img:hover {
-    transform: translate(-2px, -2px);
 }
 
 #bottom-box {
