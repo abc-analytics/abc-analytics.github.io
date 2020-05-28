@@ -1,0 +1,103 @@
+@import url(../../global_assets/css/css_colors.css);
+@import url(../../global_assets/css/css_global_styles.css);
+
+body {
+    overflow-x: hidden;
+  }
+  
+#photo-showcase-container {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+justify-content: space-between;
+width: 100%;
+margin: 30px 0px 0px 0px;
+padding: 0;
+}
+
+/*each row contains many frames, each frame is either classed landscape or portrait and contains a film, which contains photo*/
+.frame {
+margin-top: 20px;
+margin-left: 0;
+margin-right: 0;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 0;
+overflow: visible;
+}
+
+.portrait {
+flex: 1 1 20%;
+width: auto;
+min-width: 210px;
+max-width: 240px;
+height: 300px;
+}
+
+.landscape {
+flex: 1 1 25%;
+width: auto;
+min-width: 290px;
+max-width: 310px;
+height: 225px;
+}
+
+.film {
+height: 80%;
+width: 80%;  
+background-color: rgb(255,255,255);
+position: absolute;
+box-shadow: 5px 10px 10px #d3d3d3;
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 1;
+}
+
+.photo {
+position: absolute;
+width: 90%;
+height: 85%;
+top: 10%;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: contain;
+z-index: 2;
+}
+
+/*insert the hanging rope before a frame*/
+.frame::before { 
+position: absolute;
+content: "";
+top: 0;
+left: 0;
+width: 400%;
+height: 8px;
+background: url(https://i.ibb.co/61KVYRT/rope.jpg);
+z-index: 3;
+}
+
+/*insert the clip after a frame*/
+.frame::after {
+position: absolute;
+content: "";
+width: 20px;
+height: 80px;
+background: url(https://i.ibb.co/BccMk5R/clip.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: contain;
+z-index: 4;
+}
+
+.portrait::after {
+top: -10%;
+}
+
+.landscape::after {
+top: -17%;
+}
+  
