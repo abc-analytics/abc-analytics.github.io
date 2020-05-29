@@ -12,6 +12,7 @@ flex-wrap: wrap;
 align-items: flex-start;
 justify-content: space-between;
 width: 100vw;
+overflow-x: hidden;
 margin: 30px 0px 0px 0px;
 padding: 0;
 }
