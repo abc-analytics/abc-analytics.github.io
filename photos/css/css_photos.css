@@ -1,10 +1,6 @@
 @import url(../../global_assets/css/css_colors.css);
 @import url(../../global_assets/css/css_global_styles.css);
 
-* {
-    image-orientation: none;
-}
-
 body {
     overflow-x: hidden;
   }
@@ -61,8 +57,9 @@ align-items: center;
 z-index: 1;
 }
 
-.photo {
+.film img {
 position: absolute;
+image-orientation: none; /*often photos have EXIF meta data which mess up rotation in different browsers/devices, better strip Exif off using exiftool first and declare not-to-use exif orientation*/
 width: 90%;
 height: 85%;
 top: 10%;
