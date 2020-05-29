@@ -1,6 +1,10 @@
 @import url(../../global_assets/css/css_colors.css);
 @import url(../../global_assets/css/css_global_styles.css);
 
+* {
+    image-orientation: none;
+}
+
 body {
     overflow-x: hidden;
   }
