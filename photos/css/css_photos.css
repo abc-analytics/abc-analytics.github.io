@@ -75,7 +75,7 @@ position: absolute;
 content: "";
 top: 0;
 left: 0;
-width: 400%;
+width: 100%;
 height: 8px;
 background: url(https://i.ibb.co/61KVYRT/rope.jpg);
 z-index: 3;
