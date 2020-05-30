@@ -11,7 +11,8 @@
 /*start of styling for top page*/
 
 #top {
-    background-image: url(../images/bookshelf_top.jpg);
+    background-image: url(../images/bookshelf_top_1000px.jpg); /*default image 1000px wide*/
+    background-image: image-set(url(../images/bookshelf_top_1000px.jpg) 1x, url(../images/bookshelf_top_1500px.jpg) 1.5x, url(../images/bookshelf_top_1920px.jpg) 2x);
     background-size: cover;
     background-position: bottom center;
     background-repeat: no-repeat;
