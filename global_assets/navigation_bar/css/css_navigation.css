@@ -62,10 +62,17 @@
     top: 0;    
 }
 
-@media only screen and (max-width: 600px) {
-    #hamburger, #hamburger::before, #hamburger::after {
-        width: 50px;
-        height: 7px;
+@media only screen and (max-device-width: 600px) {
+    #hamburger,#hamburger::before, #hamburger::after {
+        width: 80px;
+        height: 10px;
+    }
+    #hamburger::before {
+        top: -20px;
+    }
+
+    #hamburger::after {
+        top: 20px;
     }
 }
 
