@@ -17,6 +17,7 @@
     display: none;
 }
 
+/*the three hamburger lines are drawn out using background color*/
 #hamburger {
     position: absolute;
     top: 0;
@@ -26,11 +27,12 @@
     z-index: 4;
     cursor: pointer;
     background-color: var(--hamburger-color); 
-    transition-property: all;
+    transition-property: transform;
     transition-duration: 0.5s;
     transition-timing-function: linear;   
 }
 
+/*the other two hamburger lines, one set above one set below*/
 #hamburger::before, #hamburger::after {
     content: "";
     position: absolute;
@@ -48,6 +50,7 @@
     top: 12px;
 }
 
+/*change the hamburger into a cross when clicked*/
 #checkbox:checked + #hamburger {
     transform: rotate(135deg);
     background-color: var(--dark-bg-font-color);
@@ -57,6 +60,13 @@
 #checkbox:checked + #hamburger::after {
     transform: rotate(90deg);
     top: 0;    
+}
+
+@media only screen and (max-width: 600px) {
+    #hamburger, #hamburger::before, #hamburger::after {
+        width: 50px;
+        height: 7px;
+    }
 }
 
 #nav-menu {
