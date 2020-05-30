@@ -78,7 +78,7 @@ top: 0;
 left: 0;
 width: 350%;
 height: 8px;
-background: url(https://i.ibb.co/61KVYRT/rope.jpg);
+background: url(../images/rope.jpg);
 z-index: 3;
 }
 
@@ -88,7 +88,7 @@ position: absolute;
 content: "";
 width: 20px;
 height: 80px;
-background: url(https://i.ibb.co/BccMk5R/clip.jpg);
+background: url(../images/clip.jpg);
 background-repeat: no-repeat;
 background-position: center center;
 background-size: contain;
