@@ -1,0 +1,106 @@
+<!--
+description: home landing page
+date: 16/05/2020
+author: ABC
+using: manually written html/css 
+-->
+<!doctype html>
+<html>
+    <head>
+        <title>
+            ABC | Photos
+        </title>
+        
+        <!--styling, internal files-->
+        <link rel="stylesheet" href="css/css_photos.css" type="text/css">
+        <link rel="icon" type="image/png" href="global_assets/images/favicon.png">
+        
+        <!--navigation menu use-->
+        <link rel="stylesheet" href="../global_assets/navigation_bar/css/css_navigation.css" type="text/css">
+
+        <!--external scripts-->
+        <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script><!--icons api from iconify-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!--jquery-->
+       
+        <!--internal scripts-->        
+        <script src="js/photoTransformScript.js"></script>
+        <script src="js/photoYearSelect.js"></script>
+
+        <!--meta tags-->
+        <meta name="description" content="Applied Bayesian Capital Analytics, Technology&#8745Finance">
+        <meta name="keywords" content="ABC photos, ABC Analytics, Applied Bayesian Capital, Applied Bayesian Capital Analytics">
+        <meta name="author" content="ABC">
+        <meta name="robots" content="index">
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">, site not designed to be responsive (yet)-->
+
+    </head>
+
+    <body ontouchstart="" onload="photoTransformScript()">
+
+
+      <!--start, navigation menu code--> 
+      <main id="nav-menu-container">
+        
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox" id="hamburger"></label>
+
+        <section id="nav-menu">
+          <div id="popup-circle">
+
+            <div id="nav-menu-content">
+                <ul class="nav-menu-content-column">
+                  <li><a href="#"><span class="iconify" data-icon="bi:person-fill" data-inline="true"></span> About</a></li>
+                  <li><a href="../bookshelf/index.html"><span class="iconify" data-icon="icomoon-free:books" data-inline="true"></span> Books</a></li>
+                  <li><a href="#"><span class="iconify" data-icon="mdi:language-python" data-inline="true"></span> Notebook</a></li>
+                  <li><a href="#"><span class="iconify" data-icon="fa-brands:wordpress" data-inline="true"></span> Blog</a></li>
+                  <li><a href="#"><span class="iconify" data-icon="bx:bxs-bar-chart-alt-2" data-inline="true"></span> Charts</a></li>
+                  
+                </ul>
+                <ul class="nav-menu-content-column">
+                  <li><a href="#"><span class="iconify" data-icon="mdi:microsoft-visual-studio-code" data-inline="true"></span> Codes</a></li>
+                  <li><a href="#"><span class="iconify" data-icon="jam:files-f" data-inline="true"></span> Files</a></li>
+                  <li><a href="#"><span class="iconify" data-icon="bx:bxs-calculator" data-inline="true"></span> Problems</a></li>
+                  <li><a href="../photos/index.html"><span class="iconify" data-icon="ic:round-photo-camera" data-inline="true"></span> Photos</a></li>
+                  <li><a href="../contact/index.html"><span class="iconify" data-icon="topcoat:email" data-inline="true"></span> Contact</a></li>
+                </ul>
+              </div>
+
+          </div>
+        </section>
+
+      </main>
+      <!--end, navigation menu code--> 
+
+
+      <!--start of main page contents-->  
+        <main id="photo-page-container">
+            
+            <header id="photo-page-top">
+                <h1>Photo Gallery</h1>
+                <div class="dropdown">
+                    <select id="dropdown-menu">
+                        <option selected disabled>photo year</option>
+                       
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                       
+                    </select>
+                </div>
+            </header>
+
+            <!--main area to display photos
+                each frame (invisible) of either landscape or portrait class acts as container for film (a white film), which in turn contains the actual photo.
+                photo displays as background image, in-line style used.
+            -->
+            <div id="photo-showcase-container"><!--use jquery to load the selected year's html file, which contains photo codes, to be inserted here-->
+
+
+
+            </div>
+            <!--end of main display area-->
+
+        </main>
+
+    </body>
+    
+</html>
