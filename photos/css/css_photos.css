@@ -120,7 +120,12 @@ body {
 #photo-page-top h1 {
   color: var(--red-color);
   font-size: 2.5rem;
-  display: block;
+  animation: top-color 6s ease forwards;
+}
+
+@keyframes top-color {
+  0% {color: var(--background-color);}
+  100% {color: var(--red-color);}
 }
 
 /*styling for the dropdown menu*/
@@ -133,6 +138,9 @@ select {
   padding: 0 0.5em;
   cursor: pointer;
   font-size: 1em;
+  transition-property: all;
+  transition-duration: 3s;
+  transition-timing-function: ease-in;
 }
 
 .dropdown {
