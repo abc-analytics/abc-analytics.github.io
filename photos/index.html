@@ -21,7 +21,14 @@ using: manually written html/css
         <!--external scripts-->
         <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script><!--icons api from iconify-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!--jquery-->
-
+<script>
+$("#dropdown-menu").change(function() {
+    alert("menu changed");
+  $("#photo-showcase-container").empty();
+  var filePath = "html/"+$(this).val()+".html";
+  $("#photo-showcase-container").load(filePath);
+});
+        </script>
        
         <!--internal scripts-->        
         <script src="js/photoTransformScript.js"></script>
@@ -101,14 +108,7 @@ using: manually written html/css
             <!--end of main display area-->
 
         </main>
-  <script>
-$("#dropdown-menu").change(function() {
-    alert("menu changed");
-  $("#photo-showcase-container").empty();
-  var filePath = "html/"+$(this).val()+".html";
-  $("#photo-showcase-container").load(filePath);
-});
-        </script>
+  
     </body>
     
 </html>
