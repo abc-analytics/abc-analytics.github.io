@@ -23,13 +23,9 @@ using: manually written html/css
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!--jquery-->
         <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.min.js"></script>
         <script>
-$("#dropdown-menu").change(function() {
+$("#x").change(function() {
     alert("CHANGED!");
-  $("#photo-showcase-container").empty();
-  var filePath = "html/"+$(this).val()+".html";
-  alert("this file to get is "+filePath);
-  $("#photo-showcase-container").load(filePath);
-});
+ });
         </script>
 
 
@@ -90,7 +86,7 @@ $("#dropdown-menu").change(function() {
             <header id="photo-page-top">
                 <h1>Photo Gallery</h1>
                 <div class="dropdown">
-                    <select id="dropdown-menu">
+                    <select id="x">
                         <option selected disabled>photo year</option>
                        
                         <option value="2016">2016</option>
