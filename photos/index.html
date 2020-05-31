@@ -79,7 +79,7 @@ using: manually written html/css
             <header id="photo-page-top">
                 <h1>Photo Gallery</h1>
                 <div class="dropdown">
-                    <select id="x">
+                    <select id="dropdown-menu">
                         <option selected disabled>photo year</option>
                        
                         <option value="2016">2016</option>
@@ -102,9 +102,12 @@ using: manually written html/css
 
         </main>
   <script>
-$("#x").change(function() {
-    alert("CHANGED!");
- });
+$("#dropdown-menu").change(function() {
+
+  $("#photo-showcase-container").empty();
+  var filePath = "html/"+$(this).val()+".html";
+  $("#photo-showcase-container").load(filePath);
+});
         </script>
     </body>
     
