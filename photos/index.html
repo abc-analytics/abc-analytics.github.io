@@ -103,7 +103,7 @@ using: manually written html/css
         </main>
   <script>
 $("#dropdown-menu").change(function() {
-
+    alert("menu changed");
   $("#photo-showcase-container").empty();
   var filePath = "html/"+$(this).val()+".html";
   $("#photo-showcase-container").load(filePath);
