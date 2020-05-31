@@ -1,5 +1,5 @@
 
-  $("dropdown-menu").change(function() {
+  $("#dropdown-menu").change(function() {
 
     $("#photo-showcase-container").empty();
     var filePath = "html/"+$(this).val()+".html";
