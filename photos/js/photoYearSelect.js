@@ -1,6 +1,4 @@
 
-$(function() {
-
   $("dropdown-menu").change(function() {
 
     $("#photo-showcase-container").empty();
@@ -8,4 +6,4 @@ $(function() {
     alert("this file to get is "+filePath);
     $("#photo-showcase-container").load(filePath);
   });
-});
+
