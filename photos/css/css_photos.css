@@ -14,7 +14,7 @@ body {
 /*the cover image to display in the showcase container, before any photo load*/
 #showcase-cover {
   width: 100%;
-  height: 60vh;/*100%;*/
+  height: 50vh;/*100%;*/
   background-image: url(../images/photo-top_portrait.jpg);
   background-size: cover; /*stretching bg img to fill the container*/
   background-repeat: no-repeat;
