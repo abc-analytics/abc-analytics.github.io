@@ -41,6 +41,7 @@ body {
   padding: 0;
   flex-grow: 1; /*grow & shrink=1, making this showcase-container taking up whatever vh remaining*/
   flex-shrink: 1;
+  flex-basis: 60vh;
 }
 
 /*each row contains many frames, each frame is either classed landscape or portrait and contains a film, which contains photo*/
