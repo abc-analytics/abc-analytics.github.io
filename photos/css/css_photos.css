@@ -18,7 +18,7 @@ body {
   background-size: contain; /*stretching bg img to fill the container*/
   background-repeat: no-repeat;
   background-position: center center;
-} /*media query to select a landscape and a portrait bg img */
+} /*media-query selecting a landscape or a portrait bg img */
 @media (orientation: landscape) {
   #showcase-cover {background-image: url(../images/photo-top_landscape.jpg);}
 }
