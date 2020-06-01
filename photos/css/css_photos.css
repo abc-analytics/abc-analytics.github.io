@@ -5,6 +5,27 @@ body {
   overflow-x: hidden;
   }
 
+#photo-page-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/*the cover image to display in the showcase container, before any photo load*/
+#showcase-cover {
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%; /*stretching bg img to fill the container*/
+  background-repeat: no-repeat;
+  background-position: center center;
+} /*media query to select a landscape and a portrait bg img */
+@media only screen and (orientation: landscape) {
+  #showcase-cover {background-image: url(../images/photo-top_landscape.jpg);}
+}
+@media only screen and (orientation: portrait) {
+  #showcase-cover {background-image: url(../images/photo-top_portrait.jpg);}
+}
+
 /*the area displaying photos*/
 #photo-showcase-container {
   display: flex;
@@ -17,9 +38,8 @@ body {
   overflow-y: scroll;
   margin: 50px 0px 0px 0px;
   padding: 0;
-  transition-property: all;
-  transition-duration: 3s;
-  transition-timing-function: ease-in;
+  flex-grow: 1; /*grow & shrink=1, making this showcase-container taking up whatever vh remaining*/
+  flex-shrink: 1;
 }
 
 /*each row contains many frames, each frame is either classed landscape or portrait and contains a film, which contains photo*/
@@ -118,12 +138,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-grow: 0; /*grow & shrink = 0, making this container inflexible*/
+  flex-shrink: 0;
 }
 
 #photo-page-top h1 {
   color: var(--red-color);
   font-size: 2.5rem;
-  animation: top-color 6s ease forwards;
+  animation: top-color 4s ease forwards;
 }
 
 @keyframes top-color {
