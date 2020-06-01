@@ -19,10 +19,10 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
 } /*media query to select a landscape and a portrait bg img */
-@media only screen and (orientation: landscape) {
+@media screen and (orientation: landscape) {
   #showcase-cover {background-image: url(../images/photo-top_landscape.jpg);}
 }
-@media only screen and (orientation: portrait) {
+@media screen and (orientation: portrait) {
   #showcase-cover {background-image: url(../images/photo-top_portrait.jpg);}
 }
 
