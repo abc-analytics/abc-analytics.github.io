@@ -15,20 +15,8 @@ body {
 #showcase-cover {
   width: 100%;
   height: 80vh;
-  
-} /*media query to select a landscape and a portrait bg img */
-@media (orientation: landscape) and (max-width: 1000px) {
-  #showcase-cover {background-image: url(../images/photo-top_landscape1x.jpg);}
-}
-@media (orientation: portrait) and (max-width: 1000px) {
-  #showcase-cover {background-image: url(../images/photo-top_portrait1x.jpg);}
-}
-@media (orientation: landscape) and (min-width: 1000px) {
-  #showcase-cover {background-image: url(../images/photo-top_landscape2x.jpg);}
-}
-@media (orientation: portrait) and (min-width: 1000px) {
-  #showcase-cover {background-image: url(../images/photo-top_portrait2x.jpg);}
-}
+  background-image: url(../images/photo-top_landscape1x.jpg);
+} 
 
 /*the area displaying photos*/
 #photo-showcase-container {
