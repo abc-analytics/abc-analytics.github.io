@@ -1,4 +1,5 @@
-//the script to call when photo-page loads
+//call when photo-page loads
+//this script randomizes a few photo attributes, rotation/translateX/scaling
 function photoTransformScript() {
 
 var films = document.getElementsByClassName("film");
