@@ -5,7 +5,7 @@ $(document).ready(function() {
     
     var filePath = "html/"+$(this).val()+".html"; //string of the path to the relevant year html file
     $("#photo-showcase-container").load(filePath); //load that html file in the showcase area
-    setTimeout(function(){photoTransformScript()}, 500);
+    setTimeout(function(){photoTransformScript()}, 500); //wait for some time, then call a script to manipulate the loaded elements
     
   });
 
