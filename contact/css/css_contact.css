@@ -116,6 +116,10 @@ body {
     text-align: center;
 }
 
+#social-media a:hover > .iconify {
+    color: var(--blue-color);
+}
+
 #bottom-box {
     flex: 2 1 30%;
     width: 100%;
