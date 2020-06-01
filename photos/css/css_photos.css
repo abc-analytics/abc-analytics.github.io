@@ -15,7 +15,7 @@ body {
 #showcase-cover {
   width: 100%;
   height: 100%;
-  background-size: cover; /*stretching bg img to fill the container*/
+  /*background-size: cover;*/ /*stretching bg img to fill the container*/
   background-repeat: no-repeat;
   background-position: center center;
 } /*media query to select a landscape and a portrait bg img */
