@@ -16,9 +16,9 @@ body {
   width: 100%;
   height: 50vh;/*100%;*/
   background-image: url(../images/photo-top_portrait.jpg);
-  /*background-size: cover;*/ /*stretching bg img to fill the container*/
-  /*background-repeat: no-repeat;*/
-  /*background-position: center center;*/
+  background-size: cover; /*stretching bg img to fill the container*/
+  background-repeat: no-repeat;
+  background-position: center center;
 } /*media query to select a landscape and a portrait bg img */
 /*@media (orientation: landscape) {
   #showcase-cover {background-image: url(../images/photo-top_landscape.jpg);}
