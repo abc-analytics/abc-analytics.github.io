@@ -7,7 +7,7 @@
 }
 
 .subject:hover .subjectname {
-    color: var(--blue-color);
+    color: var(--red-color);
     font-weight: bold;
   }
   
@@ -17,7 +17,7 @@
     height: 2px;
     position: absolute;
     transition: all 0.5s linear;
-    background-color: var(--blue-color);
+    background-color: var(--red-color);
   }
   
   .subjectname span::before, .subjectname span::after {
@@ -26,7 +26,7 @@
     height: 0; /*two empty points positioned at corner with 0-height/little width before/after subjectname, but height goes to 100 on hover*/
     position: absolute;
     transition: all 0.5s linear;
-    background-color: var(--blue-color);
+    background-color: var(--red-color);
   }
   
   .subjectname::before {
