@@ -83,7 +83,7 @@ body {
 #daily-hero-highlighter { /*daily-hero is a code snippet, this highligher is a dark-transparent bar moving vertically highlighting the code lines*/
   position: absolute;
   height: 1.8em;
-  width: 75%;
+  width: 80%;
   top: 10%;
   left: 5%;
   background-color: rgba(var(--dark-background-color-rgb), 0.15);
