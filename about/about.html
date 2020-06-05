@@ -1,0 +1,161 @@
+<!--
+description: about page, writing information about myself
+date: 12/06/2020
+author: ABC
+using: manually written html/css 
+-->
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Applied Bayesian Capital | About
+        </title>
+        
+        <!--styling, internal files-->
+        <link rel="stylesheet" href="css/about.css" type="text/css">
+        <link rel="icon" type="image/png" href="../assets/images/favicon.png">        
+        
+        <!--external scripts-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!--jquery-->
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!--particles animation script and its related call script-->
+        <script src="js/particlesJSHelper.js" type="text/javascript"></script>
+
+        <!--script to load navigation menu into #nav-menu-container-->
+        <script src="../assets/js/navbar.js" type="text/javascript"></script>
+
+        <!--meta tags-->
+        <meta name="description" content="Applied Bayesian Capital Analytics, Technology&#8745Finance">
+        <meta name="keywords" content="ABC about, ABC Analytics, Applied Bayesian Capital, Applied Bayesian Capital Analytics">
+        <meta name="author" content="ABC">
+        <meta name="robots" content="index">
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">, site not designed to be responsive (yet)-->
+
+    </head>
+
+    <body ontouchstart="" onload="particlesJSHelper()">
+
+      <!--start, navigation menu--> 
+      <main id="nav-menu-container">      
+        <!--navbar.html is loaded inside here-->
+      </main>
+      <!--end, navigation menu--> 
+
+
+      <!--start of main page contents-->  
+      <main id="about-page-container">
+        <!--each part as a section, in which broken into a hero div and a contents div-->
+          
+        <section id="page-top"><h1>About ABC</h1></section>
+
+
+        <section id="about-basics" class="about">
+          <div class="hero">
+            <div id="particles-js"></div>
+          </div>
+
+          <div class="contents">
+            <h1>My Brownian Path</h1>
+          </div>
+            
+        </section>
+
+
+        <section id="about-bayesian" class="about">
+
+          <div class="contents">
+            <h1> Bayesian Religion </h1>
+
+          </div>
+
+          <div id="bayesian-hero" class="hero">
+            <div id="bayesian-hero-bg"></div>
+          </div>
+            
+        </section>
+
+        <!--what I do in a typically day-->
+        <section id="about-daily" class="about">
+          <!--hero in this section is a code snippet, formatted using html <pre> to imitate code lines, with common-ide colors added using <span class="color">-->
+          <div id="daily-hero" class="hero"> 
+
+          <pre>
+
+
+            
+        <span class="orange">do</span> {
+          <span class="blue">Day</span> <span class="green">today</span> = <span class="orange">new</span> Day(); <span class="gray">//everyday is a new instance</span>
+          <span class="green">today</span>.<span class="purple">eat</span>(<span class="blue">Menu.SALAD</span>);
+          <span class="green">today</span>.<span class="purple">read</span>(<span class="green">books</span>.pop());
+          <span class="green">today</span>.<span class="purple">code</span>(<span class="green">projects</span>.pop());
+          <span class="green">marketOpen</span> <span class="orange">?</span> <span class="green">today</span>.<span class="purple">trade</span>() <span class="orange">:</span> <span class="green">today</span>.<span class="purple">code</span>(<span class="green">projects</span>.pop());
+          <span class="orange">try</span> {
+            <span class="blue">Person</span> <span class="green">mate</span> = Math.<span class="purple">random</span>()>0.5 <span class="orange">?</span> <span class="green">yourMom</span> <span class="orange">:</span> <span class="green">myWife</span>;
+            <span class="green">today</span>.<span class="purple">fuck</span>(<span class="green">mate</span>);
+          }
+          <span class="orange">catch</span> (<span class="blue">Exception</span> <span class="green">ex</span>) {
+            <span class="green">logger</span>.<span class="purple">error</span>("oops", <span class="green">ex</span>);
+          }
+          <span class="orange">finally</span> {
+            <span class="green">today</span>.<span class="purple">shower</span>();
+            <span class="green">today</span>.<span class="purple">sleep</span>();
+          }
+        } <span class="orange">while</span> (<span class="green">alive</span>);              
+          </pre>
+              <div id="daily-hero-highlighter"></div>
+          </div>
+
+
+          <div class="contents">
+
+            <h1>Eat, Read, Code, Sleep, Repeat.</h1>
+            
+
+          </div>            
+        </section>
+
+
+        <section id="about-language" class="about">
+
+          <div id="" class="contents">
+            <h1>Old, Verbose, and Unfunctional</h1>
+          </div>
+
+          <div id="" class="hero">
+          </div>
+        </section>
+
+        
+        <section id="about-democracy" class="about">
+
+
+          <div id="democracy-hero" class="hero">
+            <div id="democracy-hero-bg"></div>            
+          </div>
+
+          <div id="" class="contents">
+            <h1>Data is Democracy</h1>
+            Fairness and democracy are scams in this structurally rigged world. Others have more money, more power, more connections. We are underdogs. We work much harder for much less. I have a pair of hands, a brain, and a computer. Knowledge is power. Technology is fair. Data is democracy. They are my weapons.
+          </div>
+            
+        </section>   
+
+
+        <section id="about-minimalism" class="about">
+
+          <div id="" class="contents">
+            <h1>Less is More</h1>
+          </div>
+
+          <div id="minimalism-hero" class="hero">
+            
+          </div>
+            
+        </section>   
+        
+
+
+
+      </main>
+        
+    </body>
+  </html>

@@ -1,0 +1,125 @@
+@import url(../../assets/css/colors.css);
+@import url(../../assets/css/global_styles.css);
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  }
+
+#about-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 0;
+  padding: 0;
+}
+
+#page-top h1{
+  color: var(--red-color);
+  font-size: 3rem;
+  animation: top-color 4s ease forwards;
+}
+@keyframes top-color {
+  0% {color: var(--background-color);}
+  100% {color: var(--red-color);}
+}
+
+.about {
+  flex: 0 0 500px;
+  height: 500px;
+  width: 100vw;
+  display: flex;  
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.hero, .contents {
+  flex: 0 0 45vw;
+}
+
+.contents h1{
+  color: var(--red-color);
+  font-size: 2rem;
+  line-height: 0.2;
+}
+
+.contents {
+  color: var(--font-color);
+  font-size: 1rem;
+}
+
+#particles-js { /*position particles inside the hero container*/
+  position: relative;
+  width: 80%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+} 
+
+#bayesian-hero {
+  position: relative;  
+}
+
+#bayesian-hero-bg {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  background-image: url(../images/bayes-toast.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 20%;
+  left: 20%;
+}
+
+#daily-hero {
+  font-size: 1.2em;
+  line-height: 1.8;
+  position: relative;
+  overflow-x: hidden;
+}
+
+#daily-hero-highlighter { /*daily-hero is a code snippet, this highligher is a dark-transparent bar moving vertically highlighting the code lines*/
+  position: absolute;
+  height: 1.8em;
+  width: 75%;
+  top: 10%;
+  left: 5%;
+  background-color: rgba(var(--dark-background-color-rgb), 0.15);
+  animation: highlighter 20s linear infinite;
+}
+.orange {color: darkorange;}
+.gray {color: lightslategrey;}
+.green {color: var(--green-color)}
+.blue {color: var(--blue-color);}
+.purple {color: blueviolet;}
+#daily-hero-highlighter:hover { /*pause the highlighter's animation state when hovered*/
+  animation-play-state: paused;
+}
+@keyframes highlighter { /*move the highligher vertically*/
+  100% {top: 90%;}
+}
+
+#democracy-hero {
+  position: relative;
+}
+#democracy-hero-bg {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  background-image: url(../images/democracy-tombstone.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 10%;
+  left: 20%;
+}
+
+#minimalism-hero {
+  width: 90%;
+  height: 90%;
+  background-image: url(../images/stone.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}

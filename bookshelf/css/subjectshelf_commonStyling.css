@@ -1,0 +1,59 @@
+/*common styling for all subjectshelves*/
+@import url("../../assets/css/colors.css");
+
+
+body {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    font-family: constantia, sans-serif;
+    font-size: 75%;
+} 
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+.subjectshelf {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    overflow-y: scroll;
+    margin: 0;
+}
+
+.subjectshelf a {
+    height: 17vh;
+    max-height: 130px;
+    min-height: 80px;
+    position: relative;
+    margin: 0;
+    opacity: 0.7;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;  
+}
+
+.subject, .emptysubject {
+    background-size: 100% 100%;
+}
+
+.subjectname {
+    position: absolute;
+    min-width: 90px;
+    max-width: 90%;
+    bottom: 8%; /*position it close to the bottom of container*/
+    left: 50%; /*center the tip horizontally at 50%, then move it back to the left by half its own size using translateX(-50%), so the box is at center*/
+    transform: translateX(-50%); 
+    background-color: var(--background-color);
+    color: var(--font-color);
+    font-size: 1em; 
+    text-align: center;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    border-radius: 0.2em;    
+}
+
+

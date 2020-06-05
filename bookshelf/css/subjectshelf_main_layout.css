@@ -1,0 +1,53 @@
+/*modular css, for setting bookshelf.html layout*/
+
+@import url("../../assets/css/colors.css");
+
+#container {
+    width: auto;
+    height: 100vh;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.pages {
+    scroll-snap-align: start;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--background-color);
+    position: relative;
+    overflow: auto;
+    align-items: center;
+}
+
+.header {
+    height: 4vh;
+}
+
+.header img {
+    width: 4%;
+    position: absolute;
+    top: 0.3%;
+    left: 48%;
+    max-height: 3%;
+}
+
+.shelfname {
+    position: relative;
+    width: auto;
+    height: 4vh;
+    color: var(--font-color);
+    text-align: center;
+    line-height: 1;
+    font-size: 2em;
+}
+
+.footer img{
+    width: 4%;
+    position: absolute;
+    bottom: 0.3%;
+    left: 48%;
+    max-height: 3%;
+  }
+ 

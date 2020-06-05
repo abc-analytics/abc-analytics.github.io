@@ -1,0 +1,55 @@
+<!--
+description: a bookshelf for a particular broad subject (such as statistics, economics), where sub-fields (such as regression, macroeconomics) are listed to link to their respective shelves
+date: 10/05/2020
+corresponding css: subjectshelf.css  
+corresponding css version: 1.0 
+-->
+<html>  
+<head>
+    <title>
+        ABC Books
+    </title>
+    <link rel="stylesheet" href="../css/subjectshelf_main.css" type="text/css"> <!--must include stylesheet-->
+    <link rel="icon" type="image/png" href="../../assets/images/favicon.png">
+</head>
+
+
+<body id="statistics">
+        
+   
+        <main class="subjectshelf">
+            
+            <!--this subject bookshelf is sliced into 5 rows and 4 columns (5x4)
+            each subject is class subject, class emptysubject when a slot is empty (ie has no subject)-->
+            <a href="probabilitystatisticsbooks.html" class="subject" id="statistics_r1c1"><div class="subjectname"><span>Probability & Statistics</span></div></a>
+            <a href="bayesianstatisticsbooks.html" class="subject" id="statistics_r1c2"><div class="subjectname"><span>Bayesian Statistics</span></div></a>
+            <a href="regressionbooks.html" class="subject" id="statistics_r1c3"><div class="subjectname"><span>Regression</span></div></a>
+            <a href="statisticalinferencebooks.html" class="subject" id="statistics_r1c4"><div class="subjectname"><span>Inference</span></div></a>
+
+            <a href="stochasticprocessbooks.html" class="subject" id="statistics_r2c1"><div class="subjectname"><span>Stochastic Process</span></div></a>
+            <a href="statisticalsimulationbooks.html" class="subject" id="statistics_r2c2"><div class="subjectname"><span>Simulations</span></div></a>
+            <a href="causalitybooks.html" class="subject" id="statistics_r2c3"><div class="subjectname"><span>Causality</span></div></a>
+            <a href="nonparametricstatisticsbooks.html" class="subject" id="statistics_r2c4"><div class="subjectname"><span>Nonparametric</span></div></a>
+
+            <a href="timeseriesanalysisbooks.html" class="subject" id="statistics_r3c1"><div class="subjectname"><span>Time Series</span></div></a>
+            <a href="signalprocessingbooks.html" class="subject" id="statistics_r3c2"><div class="subjectname"><span>Signal Processing</span></div></a>
+            <a href="statisticallearningbooks.html" class="subject" id="statistics_r3c3"><div class="subjectname"><span>Statistical Learning</span></div></a>
+            <a href="datamanagementbooks.html" class="subject" id="statistics_r3c4"><div class="subjectname"><span>Data Management</span></div></a>
+
+            <a href="datasciencebooks.html" class="subject subject_datascience" id="statistics_r4c1"><div class="subjectname"><span>Data Science</span></div></a>
+            <a class="emptysubject emptysubject_datascience" id="statistics_r4c2"></a>
+            <a href="exploratoryanalysisbooks.html" class="subject" id="statistics_r4c3"><div class="subjectname"><span>Exploratory Analysis</span></div></a>
+            <a href="clusteringbooks.html" class="subject" id="statistics_r4c4"><div class="subjectname"><span>Clustering Analysis</span></div></a>
+
+            <a href="factoranalysisbooks.html" class="subject" id="statistics_r5c1"><div class="subjectname"><span>Factor Analysis</span></div></a>
+            <a class="emptysubject" id="statistics_r5c2"></a>
+            <a href="actuarialstatisticsbooks.html" class="subject" id="statistics_r5c3"><div class="subjectname"><span>Actuarial Statistics</span></div></a>
+            <a href="otherstatisticsbooks.html" class="subject" id="statistics_r5c4"><div class="subjectname"><span>Others</span></div></a>
+      
+        </main>    
+        <!--end of subject shelf-->
+    
+    
+
+</body>
+</html>
