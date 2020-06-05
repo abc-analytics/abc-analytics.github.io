@@ -76,14 +76,14 @@ body {
 
 #daily-hero {
   font-size: 1.2em;
-  line-height: 1.8;
+  line-height: 1.5;
   position: relative;
   overflow-x: hidden;
 }
 
 #daily-hero-highlighter { /*daily-hero is a code snippet, this highligher is a dark-transparent bar moving vertically highlighting the code lines*/
   position: absolute;
-  height: 1.8em;
+  height: 1.5em;
   width: 90%;
   top: 10%;
   left: 5%;
