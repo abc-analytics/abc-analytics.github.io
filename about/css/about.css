@@ -138,19 +138,22 @@ body {
   content: "こんにちは";
   position: absolute;
   width: 70%;
-  height: 30%;
-  top: -25%;
-  left: 95%;
+  height: 20%;
+  top: -30%;
+  left: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   z-index: 3;
   animation: speech-bubble 20s linear infinite;
+  background-position: center center;
 }
 @keyframes speech-bubble {
-  0% {content: "我屌你老母"}
-  20% {content: "¿Cómo estás?"}
-  40% {content: "こんにちは"}
-  60% {content: "hola chicas, vamos a mi casa"}
-  80% {content: "バナナください"}
-  100% {content: "他媽的香蕉"}
+  0% {content: ""; background-image: url(../images/java.png); background-repeat: no-repeat; background-size: contain; background-position: center center;}
+  25% {content: "Java != JavaScript"; background-image: none;}
+  50% {content: "こんにちは. バナナください"; background-image: none;}
+  75% {content: "Hola chica, vamos a mi casa"; background-image: none;}
+  100% {content: "我屌你老母"; background-image: none;}
 }
 
 #minimalism-hero {
