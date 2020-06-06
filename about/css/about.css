@@ -102,20 +102,6 @@ body {
   100% {top: 90%;}
 }
 
-#democracy-hero {
-  position: relative;
-}
-#democracy-hero-bg {
-  position: absolute;
-  width: 60%;
-  height: 60%;
-  background-image: url(../images/democracy-tombstone.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  top: 10%;
-  left: 20%;
-}
-
 #minimalism-hero {
   width: 90%;
   height: 90%;
@@ -123,4 +109,18 @@ body {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+#revolution-hero {
+  position: relative;
+}
+#revolution-hero-bg {
+  position: absolute;
+  width: 70%;
+  height: 70%;
+  background-image: url(../images/revolution.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 10%;
+  left: 20%;
 }
