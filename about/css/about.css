@@ -31,6 +31,7 @@ body {
   width: 100vw;
   display: flex;  
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   margin-top: 3rem;
 }
@@ -42,15 +43,15 @@ body {
 .contents h1{
   color: var(--red-color);
   font-size: 2rem;
-  line-height: 0.2;
-  white-space: normal;
+  text-shadow: 1px 1px 0px lightgrey;
+  margin-bottom: 0.5em;
 }
 
 .contents p {
   color: var(--font-color);
-  font-size: 1rem;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  font-size: 0.9rem;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 #particles-js { /*position particles inside the hero container*/
@@ -104,12 +105,50 @@ body {
   100% {top: 90%;}
 }
 
+#language-hero {
+  position: relative;  
+}
+
+#language-dog {
+  position: absolute;
+  width: 30%;
+  height: 50%;
+  bottom: 10%;
+  left: 25%;
+  background-image: url(../images/language-dog.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#language-dog::after {
+  content: "";
+  width: 100%;
+  height: 60%;
+  background-image: url(../images/speech-bubble.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -50%;
+  left: 70%;
+  z-index: 2;
+}
+
+#language-dog::before {
+  content: "こんにちは ¿Cómo estás? 我屌你老母";
+  position: absolute;
+  width: 70%;
+  height: 30%;
+  top: -30%;
+  left: 90%;
+  z-index: 3;
+}
+
 #minimalism-hero {
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   background-image: url(../images/stone.png);
   background-size: contain;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 
