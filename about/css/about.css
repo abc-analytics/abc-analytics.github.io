@@ -25,9 +25,10 @@ body {
   100% {color: var(--red-color);}
 }
 
+/*about is the row/horizontal container for each section*/
 .about {
-  flex: 0 0 400px;
-  height: 400px;
+  flex: 0 0 500px;
+  height: 500px;
   width: 100vw;
   display: flex;  
   flex-direction: row;
@@ -108,18 +109,18 @@ body {
 #language-hero {
   position: relative;  
 }
-
+/*the dog photo*/
 #language-dog {
   position: absolute;
   width: 30%;
   height: 50%;
-  bottom: 10%;
+  bottom: 20%;
   left: 25%;
   background-image: url(../images/language-dog.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
-
+/*positioning the speech bubble box above doggy photo*/
 #language-dog::after {
   content: "";
   width: 100%;
@@ -132,15 +133,24 @@ body {
   left: 70%;
   z-index: 2;
 }
-
+/*positioning contents in the speech bubble box*/
 #language-dog::before {
-  content: "こんにちは ¿Cómo estás? 我屌你老母";
+  content: "こんにちは";
   position: absolute;
   width: 70%;
   height: 30%;
   top: -30%;
   left: 90%;
   z-index: 3;
+  animation: speech-bubble 20s linear infinite;
+}
+@keyframes speech-bubble {
+  0% {content: "hola chicas"}
+  20% {content: "¿Cómo estás?"}
+  40% {content: "こんにちは"}
+  60% {content: "我屌你老母"}
+  80% {content: "バナナください"}
+  100% {content: "他媽的香蕉"}
 }
 
 #minimalism-hero {
