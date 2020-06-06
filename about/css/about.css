@@ -46,9 +46,11 @@ body {
   white-space: normal;
 }
 
-.contents {
+.contents p {
   color: var(--font-color);
   font-size: 1rem;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 #particles-js { /*position particles inside the hero container*/
