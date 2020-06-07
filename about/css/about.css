@@ -135,7 +135,7 @@ body {
 }
 /*positioning contents in the speech bubble box*/
 #language-dog::before {
-  content: "hola chica";
+  content: "";
   position: absolute;
   width: 70%;
   max-width: 100px;
@@ -147,17 +147,15 @@ body {
   justify-content: center;
   z-index: 3;
   background-position: center center;
-  animation: speech-bubble 30s cubic-bezier(0, 1.5, 0, 2) infinite;
+  animation: speech-bubble 25s cubic-bezier(0, 1.5, 0, 2) infinite;
 }
 @keyframes speech-bubble {
-  0% {content: ""; background-image: none;}
-  10% {content: ""; background-image: url(../images/banana.png); background-repeat: no-repeat; background-size: contain; background-position: center center;}
-  25% {content: ""; background-image: url(../images/js.png); background-repeat: no-repeat; background-size: contain; background-position: center center;}
-  40% {content: ""; background-image: url(../images/haskell.png); background-repeat: no-repeat; background-size: contain; background-position: center center;}
-  55% {content: ""; background-image: url(../images/java.png); background-repeat: no-repeat; background-size: contain; background-position: center center;}
-  70% {content: ""; background-image: url(../images/mysql.png); background-repeat: no-repeat; background-size: contain; background-position: center center;}
-  85% {content: "我爱香蕉"; background-image: none;}
-  100% {content: "バナナ好き"; background-image: none;}
+  0% {background-image: none;}
+  20% {background-image: url(../images/banana.png); background-repeat: no-repeat; background-size: contain; background-position: center center;}
+  40% {background-image: url(../images/js.png); background-repeat: no-repeat; background-size: contain; background-position: center center;}
+  60% {background-image: url(../images/haskell.png); background-repeat: no-repeat; background-size: contain; background-position: center center;}
+  80% {background-image: url(../images/java.png); background-repeat: no-repeat; background-size: contain; background-position: center center;}
+  100% {background-image: url(../images/mysql.png); background-repeat: no-repeat; background-size: contain; background-position: center center;}
 }
 
 #minimalism-hero {
