@@ -124,7 +124,7 @@ body {
 #language-dog::after {
   content: "";
   width: 100%;
-  height: 60%;
+  height: 50%;
   background-image: url(../images/speech-bubble.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -135,25 +135,29 @@ body {
 }
 /*positioning contents in the speech bubble box*/
 #language-dog::before {
-  content: "こんにちは";
+  content: "hola chica";
   position: absolute;
   width: 70%;
+  max-width: 100px;
   height: 20%;
   top: -30%;
   left: 90%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   z-index: 3;
-  animation: speech-bubble 20s linear infinite;
   background-position: center center;
+  animation: speech-bubble 30s cubic-bezier(0, 1.5, 0, 2) infinite;
 }
 @keyframes speech-bubble {
-  0% {content: ""; background-image: url(../images/java.png); background-repeat: no-repeat; background-size: contain; background-position: center center;}
-  25% {content: "Java != JavaScript"; background-image: none;}
-  50% {content: "こんにちは. バナナください"; background-image: none;}
-  75% {content: "Hola chica, vamos a mi casa"; background-image: none;}
-  100% {content: "我屌你老母"; background-image: none;}
+  0% {content: ""; background-image: none;}
+  10% {content: ""; background-image: url(../images/banana.png); background-repeat: no-repeat; background-size: contain; background-position: center center;}
+  25% {content: ""; background-image: url(../images/js.png); background-repeat: no-repeat; background-size: contain; background-position: center center;}
+  40% {content: ""; background-image: url(../images/haskell.png); background-repeat: no-repeat; background-size: contain; background-position: center center;}
+  55% {content: ""; background-image: url(../images/java.png); background-repeat: no-repeat; background-size: contain; background-position: center center;}
+  70% {content: ""; background-image: url(../images/mysql.png); background-repeat: no-repeat; background-size: contain; background-position: center center;}
+  85% {content: "我爱香蕉"; background-image: none;}
+  100% {content: "バナナ好き"; background-image: none;}
 }
 
 #minimalism-hero {
