@@ -74,7 +74,7 @@ body {
   background-image: url(../images/bayes-toast.png);
   background-size: contain;
   background-repeat: no-repeat;
-  top: 20%;
+  top: 10%;
   left: 20%;
 }
 
@@ -159,12 +159,17 @@ body {
 }
 
 #minimalism-hero {
-  width: 100%;
-  height: 100%;
+  position: relative;
+}
+#minimalism-hero-bg {
+  position: absolute;
+  width: 70%;
+  height: 70%;
   background-image: url(../images/stone.png);
   background-size: contain;
-  background-position: center center;
   background-repeat: no-repeat;
+  top: 10%;
+  left: 20%;
 }
 
 #revolution-hero {
