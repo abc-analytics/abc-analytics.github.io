@@ -94,7 +94,7 @@ body {
   background-color: rgba(var(--dark-background-color-rgb), 0.15);
   animation: highlighter 20s linear infinite;
 }
-.orange {color: darkorange;}
+.red {color: var(--red-color);}
 .gray {color: lightslategrey;}
 .green {color: var(--green-color)}
 .blue {color: var(--blue-color);}
