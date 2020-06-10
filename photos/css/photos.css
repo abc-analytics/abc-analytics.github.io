@@ -83,6 +83,11 @@ body {
 }
 
 /*photo*/
+.film a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .film img {
   position: absolute;
   image-orientation: none; /*often photos have EXIF meta data which mess up rotation in different browsers/devices, better strip Exif off using exiftool first and declare not-to-use exif orientation*/
@@ -94,6 +99,8 @@ body {
   background-size: contain;
   z-index: 2;
 }
+
+
 
 /*insert the hanging rope before a frame*/
 .frame::before { 

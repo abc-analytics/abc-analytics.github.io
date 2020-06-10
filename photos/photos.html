@@ -19,10 +19,13 @@ using: manually written html/css
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!--jquery-->
         <!--script to load navigation menu into #nav-menu-container-->
         <script src="../assets/js/navbar.js"></script>
-
         <!--internal scripts-->        
         <script src="js/photoTransform.js"></script>
         <script src="js/photoYearSelect.js"></script>
+        <!--fancybox js plugin for image display when clicked to enlarge-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
 
         <!--meta tags-->
         <meta name="description" content="Applied Bayesian Capital Analytics, Technology&#8745Finance">
@@ -67,8 +70,8 @@ using: manually written html/css
         </header>
 
         <!--main area to display photos
-            each frame (invisible) of either landscape or portrait class acts as container for film (a white film), which in turn contains the actual photo.
-            photo displays as background image, in-line style used.
+            each frame (invisible) of either landscape or portrait class acts as container for film (a white-bg container), which in turn contains the actual photo.
+            photo displays as background image, links to a larger format to be enlarged when clicked using fancybox js plugin.
         -->
         <div id="photo-showcase-container"><!--use jquery to load the selected year's html file, which contains photo codes, to be inserted here-->
             
