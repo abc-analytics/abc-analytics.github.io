@@ -103,7 +103,7 @@ body {
   animation-play-state: paused;
 }
 @keyframes highlighter { /*move the highligher vertically*/
-  100% {top: 90%;}
+  100% {top: 85%;}
 }
 
 #language-hero {
@@ -147,7 +147,7 @@ body {
   justify-content: center;
   z-index: 3;
   background-position: center center;
-  animation: speech-bubble 25s cubic-bezier(0, 1.5, 0, 2) infinite;
+  animation: speech-bubble 25s cubic-bezier(0, 2, 0, 2) infinite;
 }
 @keyframes speech-bubble {
   0% {background-image: none;}
