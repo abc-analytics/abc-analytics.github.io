@@ -1,0 +1,44 @@
+<!--
+description: a bookshelf for a particular broad subject (such as statistics, economics), where sub-fields (such as regression, macroeconomics) are listed to link to their respective shelves
+date: 10/05/2020
+corresponding css: css_subjectshelf.css  
+corresponding css version: 1.0 
+-->
+<html>  
+<head>
+    <title>
+        ABC Books
+    </title>
+    <link rel="stylesheet" href="../css/css_subjectshelf_index.css" type="text/css"> <!--must include stylesheet-->
+    <link rel="icon" type="image/png" href="../../global_assets/images/favicon.png">
+</head>
+
+
+<body id="games">
+        
+   
+        <main class="subjectshelf">
+            
+            <!--this subject bookshelf is sliced into 5 rows and 2 columns (5x2)
+            each subject is class subject, class emptysubject when a slot is empty (ie has no subject)-->
+            <a href="gamblebooks.html" class="subject subject_gamble" id="games_r1c1"><div class="subjectname"><span>Gambling</span></div></a>
+            <a class="emptysubject emptysubject_gamble" id="games_r1c2"></a>
+
+            <a href="gametheorybooks.html" class="subject subject_gametheory" id="games_r2c1"><div class="subjectname"><span>Game Theory</span></div></a>
+            <a class="emptysubject emptysubject_gametheory" id="games_r2c2"></a>
+           
+            <a href="pokerbooks.html" class="subject" id="games_r3c1"><div class="subjectname"><span>Poker</span></div></a>
+            <a href="blackjackbooks.html" class="subject" id="games_r3c2"><div class="subjectname"><span>Blackjack</span></div></a>
+          
+            <a href="sportsbetbooks.html" class="subject" id="games_r4c1"><div class="subjectname"><span>Sports Betting</span></div></a>
+            <a href="horseracebooks.html" class="subject" id="games_r4c2"><div class="subjectname"><span>Horse Racing</span></div></a>
+           
+            <a class="emptysubject" id="games_r5c1"></a>
+            <a class="emptysubject" id="games_r5c2"></a>
+      
+        </main>    
+        <!--end of subject shelf-->    
+    
+
+</body>
+</html>

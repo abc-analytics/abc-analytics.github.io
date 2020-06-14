@@ -17,7 +17,7 @@
 
 #top_nav a:hover {
   text-decoration: underline overline;
-  text-decoration-color: rgba(var(--red-color-rgb), 0.7);
+  text-decoration-color: rgba(var(--red-color-rgb), 0.8);
 }
 
 #bookshelf {
