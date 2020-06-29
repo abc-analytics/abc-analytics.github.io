@@ -102,7 +102,7 @@ body {
 
 @keyframes bg-image {
     0% {background-color: rgba(var(--bg-color),1)}
-    100% {background-color: rgba(var(--bg-color),0.88)}
+    100% {background-color: rgba(var(--bg-color),0.85)}
 }
 
 #box2 {
