@@ -21,7 +21,7 @@
     align-items: center;
 }
 
-.header {
+.header, .footer {
     height: 4vh;
 }
 
@@ -30,7 +30,7 @@
     position: absolute;
     top: 0.3%;
     left: 48%;
-    max-height: 3%;
+    max-height: 5%;
 }
 
 .shelfname {
@@ -48,6 +48,11 @@
     position: absolute;
     bottom: 0.3%;
     left: 48%;
-    max-height: 3%;
-  }
+    max-height: 5%;
+}
+/*changing head footer shelfname heights for landscape*/
+@media (orientation: landscape) { 
+    .header, .footer {height: 8vh; } 
+    .shelfname {height: 8vh; }
+}
  

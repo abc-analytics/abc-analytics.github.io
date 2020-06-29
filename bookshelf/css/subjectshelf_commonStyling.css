@@ -25,7 +25,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .subjectshelf a {
-    height: 17vh;
+    height: 17vh; /*5rows, so 5*17 =85vh for the shelf*/
     max-height: 130px;
     min-height: 80px;
     position: relative;
@@ -35,6 +35,10 @@ a:link, a:visited, a:hover, a:active {
     transition-duration: 1s;
     transition-timing-function: ease-out;
     transition-delay: 0s;  
+}
+/*changing shelf height for landscape*/
+@media (orientation: landscape) { 
+    .subjectshelf a {height: 15vh; /*15*5=75, reducing height by 10*/}
 }
 
 .subject, .emptysubject {
