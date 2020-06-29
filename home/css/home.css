@@ -25,7 +25,7 @@ body {
 /*the underneath background layer*/
 #landing-page::before {
     content: "";
-    background-image: url("../images/cover.jpg");
+    background-image: url("../images/cover.jpg"); /*default to portrait version*/
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -34,7 +34,9 @@ body {
     width: 100%;
     height: 100%;
     z-index: -1;
-}
+} 
+/*change attributes for landscape viewport*/
+@media (orientation: landscape) {#landing-page::before {background-image: url("../images/cover-landscape.jpg");} }
 
 #box {
     width: 100%;
