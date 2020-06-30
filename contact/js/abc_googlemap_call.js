@@ -12,7 +12,7 @@ function initMap() {
 
     var marker = new google.maps.Marker({
         position: new google.maps.LatLng(-54.2815, -36.5085),
-        icon: "../images/map-cursor.png",
+        icon: "https://i.ibb.co/HNYVYjM/map-cursor.png",
         map: map,
         title: "Applied Bayesian Capital",
         optimized: false
