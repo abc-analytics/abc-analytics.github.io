@@ -1,6 +1,6 @@
 function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 5,
+        zoom: 6,
         center: {lat: 55.9533, lng: -3.1883}, //the location coordinates
         disableDefaultUI: true,
         streetViewControl: false,
@@ -20,5 +20,3 @@ function initMap() {
 
     var overlay = new google.maps.OverlayView()   
 }
-
-google.maps.event.addDomListener(window, 'load', initMap)
