@@ -1,7 +1,7 @@
 function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 8,
-        center: {lat: -54.2815, lng: -36.5085},
+        center: {lat: 55.953, lng: 3.188}, //the location coordinates
         disableDefaultUI: true,
         streetViewControl: false,
         rotateControl: false,
@@ -11,7 +11,7 @@ function initMap() {
     })
 
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(55.9533, 3.1883), //the location coordinates
+        position: new google.maps.LatLng(55.953, 3.188), //the location coordinates
         icon: "https://i.ibb.co/HNYVYjM/map-cursor.png",
         map: map,
         title: "Applied Bayesian Capital",
