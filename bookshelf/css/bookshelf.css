@@ -43,6 +43,7 @@
   border: none;
   margin: 0px 0px 0px 0px;
   width: 65%;
+  max-width: 150px;
   height: 70%;
   position: absolute;
   left: 30px;
