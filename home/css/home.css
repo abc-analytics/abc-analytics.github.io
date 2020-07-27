@@ -19,7 +19,7 @@ body {
     --bg-color: 255,255,255;
     background-color: rgba(var(--bg-color),1);
     z-index: 1;
-    animation: bg-image 4s ease-in forwards;
+    animation: bg-image 10s ease-in forwards;
 }
 
 /*the underneath background layer*/
@@ -76,7 +76,7 @@ body {
     height: 100%;
     top: 0;
     right: 0;
-    animation: mask 3s ease-in 1s forwards;
+    animation: right-mask 3s ease-in 0s forwards;
 }
 
 #box1 h1::before {
@@ -87,22 +87,22 @@ body {
     top: 0;
     right: 0;
     background-color: rgba(var(--bg-color),1);
-    animation: message 3s ease-in 1s forwards;
+    animation: left-mask 3s ease-in 0s forwards;
 }
 
-@keyframes message {
+@keyframes left-mask {
     0% {transform: translateX(0%)}
     100% {transform: translateX(110%)}
 }
 
-@keyframes mask {
+@keyframes right-mask {
     0% {transform: translateX(-110%)}
     100% {transform: translateX(110%)}
 }
 
 @keyframes bg-image {
     0% {background-color: rgba(var(--bg-color),1)}
-    100% {background-color: rgba(var(--bg-color),0.85)}
+    100% {background-color: rgba(var(--bg-color),0.8)}
 }
 
 #box2 {
