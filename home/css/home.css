@@ -76,7 +76,7 @@ body {
     height: 100%;
     top: 0;
     right: 0;
-    animation: mask 2.5s ease-in forwards;
+    animation: mask 3s ease-in 1s forwards;
 }
 
 #box1 h1::before {
@@ -87,7 +87,7 @@ body {
     top: 0;
     right: 0;
     background-color: rgba(var(--bg-color),1);
-    animation: message 2.5s ease-in forwards;
+    animation: message 3s ease-in 1s forwards;
 }
 
 @keyframes message {
@@ -120,7 +120,7 @@ body {
     content: "";
     opacity: 0%;
     animation-duration: 40s;
-    animation-delay: 3s;
+    animation-delay: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(0.15, 0.9, 0.2, 1);
     font-size: 2.5rem;
@@ -129,8 +129,8 @@ body {
     --word2_1: "semiparametric";
     --word3_1: "econometric";
     --word1_2: "applied";
-    --word2_2: "  bayesian";
-    --word3_2: "  capital";
+    --word2_2: "   bayesian";
+    --word3_2: "   capital";
 }
 
 /*::before/after animation and transition are not supported in safari*/
