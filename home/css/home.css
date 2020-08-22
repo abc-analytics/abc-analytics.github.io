@@ -126,8 +126,8 @@ body {
     font-size: 2.5rem;
     font-weight: bold;
     --word1_1: "apples";
-    --word2_1: "bananas";
-    --word3_1: "cherries";
+    --word2_1: "cherries";
+    --word3_1: "bananas";
     --word1_2: "applied";
     --word2_2: "   bayesian";
     --word3_2: "   capital";
