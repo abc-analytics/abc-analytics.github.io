@@ -43,7 +43,34 @@
 
 
 
-/*start of styling for 2nd page (computer science)*/
+/*start of styling for 2nd page (statistics)*/
+
+
+/*overriding flex*/
+#statistics .subjectshelf a { 
+    flex: 1 1 20%;
+}
+
+
+/*end of styling for 2nd page*/
+
+
+
+/*start of styling for 3rd page (mathematics)*/
+
+
+/*overriding flex */
+#mathematics .subjectshelf a { 
+    flex: 1 1 50%;
+}
+
+/*secondary subject/emptysubject class tags for hover effects*/
+
+
+/*end of styling for 3rd page*/
+
+
+/*start of styling for 4th page (computer science)*/
 
 
 /*overriding flex*/
@@ -57,12 +84,12 @@
 }
 
 
-/*end of styling for 2nd page*/
+/*end of styling for 4th page*/
 
 
 
 
-/*start of styling for 3rd page (programming)*/
+/*start of styling for 5th page (programming)*/
 
 /*overriding flex*/
 #programming .subjectshelf a { 
@@ -74,13 +101,13 @@
 .subject_pythonlib:hover ~ .emptysubject_pythonlib, .subject_r:hover ~ .emptysubject_r {
     opacity: 1;
 }  
-/*end of styling for 3rd page*/
+/*end of styling for 5th page*/
 
 
 
 
 
-/*start of styling for 4th page (technology)*/
+/*start of styling for 6th page (technology)*/
 
 
 /*overriding flex*/
@@ -88,40 +115,6 @@
     flex: 1 1 14.28%;
 }
 
-
-/*secondary subject/emptysubject class tags for hover effects*/
-
-
-/*end of styling for 4th page*/
-
-
-
-
-/*start of styling for 5th page (statistics)*/
-
-
-/*overriding flex*/
-#statistics .subjectshelf a { 
-    flex: 1 1 25%;
-}
-
-
-/*secondary subject/emptysubject class tags for hover effects*/
-.subject_datascience:hover ~ .emptysubject_datascience {
-    opacity: 1;
-}
-
-/*end of styling for 5th page*/
-
-
-
-/*start of styling for 6th page (mathematics)*/
-
-
-/*overriding flex */
-#mathematics .subjectshelf a { 
-    flex: 1 1 50%;
-}
 
 /*secondary subject/emptysubject class tags for hover effects*/
 
