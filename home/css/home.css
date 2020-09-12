@@ -125,9 +125,9 @@ body {
     animation-timing-function: cubic-bezier(0.15, 0.9, 0.2, 1);
     font-size: 2.5rem;
     font-weight: bold;
-    --word1_1: "academic";
-    --word2_1: "crazy";
-    --word3_1: "belligerent";
+    --word1_1: "entropic";
+    --word2_1: "econometric";
+    --word3_1: "empirical";
     --word1_2: "applied";
     --word2_2: "   bayesian";
     --word3_2: "   capital";
