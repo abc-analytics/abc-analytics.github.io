@@ -151,11 +151,11 @@ body {
 }
 @keyframes speech-bubble {
   0% {background-image: none;}
-  20% {background-image: url(../images/banana.png); background-repeat: no-repeat; background-size: contain; background-position: center center;}
-  40% {background-image: url(../images/js.png); background-repeat: no-repeat; background-size: contain; background-position: center center;}
-  60% {background-image: url(../images/haskell.png); background-repeat: no-repeat; background-size: contain; background-position: center center;}
-  80% {background-image: url(../images/java.png); background-repeat: no-repeat; background-size: contain; background-position: center center;}
-  100% {background-image: url(../images/mysql.png); background-repeat: no-repeat; background-size: contain; background-position: center center;}
+  20% {background-image: url(../images/julia-logo.png); background-repeat: no-repeat; background-size: contain; background-position: center center;}
+  40% {background-image: url(../images/stan-logo.png); background-repeat: no-repeat; background-size: contain; background-position: center center;}
+  60% {background-image: url(../images/numpy-logo.png); background-repeat: no-repeat; background-size: contain; background-position: center center;}
+  80% {background-image: url(../images/java-logo.png); background-repeat: no-repeat; background-size: contain; background-position: center center;}
+  100% {background-image: url(../images/mysql-logo.png); background-repeat: no-repeat; background-size: contain; background-position: center center;}
 }
 
 #minimalism-hero {
