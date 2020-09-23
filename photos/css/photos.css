@@ -108,7 +108,7 @@ body {
   content: "";
   top: 0;
   left: 0;
-  width: 350%;
+  width: 400%;
   height: 8px;
   background: url(../images/rope.jpg);
   z-index: 3;
