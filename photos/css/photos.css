@@ -31,7 +31,7 @@ body {
   width: 100vw;
   overflow-x: hidden;
   overflow-y: scroll;
-  margin: 50px 0px 0px 0px;
+  margin: 30px 0px 0px 0px;
   padding: 0;
   flex-grow: 1; /*grow & shrink=1, making this showcase-container taking up whatever vh remaining*/
   flex-shrink: 1;
@@ -170,9 +170,9 @@ select {
 .dropdown {
   position: relative;
   display: flex;
-  width: 20em;
-  height: 3em;
-  line-height: 3;
+  width: 15em;
+  height: 2.5em;
+  line-height: 2.5;
   overflow: hidden;
   border-radius: 0.3em;
 }
