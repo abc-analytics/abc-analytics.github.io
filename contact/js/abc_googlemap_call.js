@@ -1,4 +1,4 @@
-function initMap() {
+$(document).ready( function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 5,
         center: {lat: 53.96144, lng: -2.0168}, //the location coordinates
@@ -19,4 +19,4 @@ function initMap() {
     })
 
     var overlay = new google.maps.OverlayView()   
-}
+} );
