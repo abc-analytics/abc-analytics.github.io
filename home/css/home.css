@@ -76,7 +76,7 @@ body {
     height: 100%;
     top: 0;
     right: 0;
-    animation: right-mask 3s ease-in 0s forwards;
+    animation: right-mask 2.5s ease-in 0s forwards;
 }
 
 #box1 h1::before {
@@ -87,7 +87,7 @@ body {
     top: 0;
     right: 0;
     background-color: rgba(var(--bg-color),1);
-    animation: left-mask 3s ease-in 0s forwards;
+    animation: left-mask 2.5s ease-in 0s forwards;
 }
 
 @keyframes left-mask {
@@ -119,8 +119,8 @@ body {
     text-transform: uppercase;
     content: "";
     opacity: 0%;
-    animation-duration: 40s;
-    animation-delay: 5s;
+    animation-duration: 35s;
+    animation-delay: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(0.15, 0.9, 0.2, 1);
     font-size: 2.5rem;
