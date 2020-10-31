@@ -1,0 +1,118 @@
+@import url("../../assets/css/colors.css");
+@import url("../../assets/css/global_styles.css");
+
+body {
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+/*container for main contents, anything below the navigation icon*/
+#main-container {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 0vh;
+}
+
+/*container for hero contents at top of main container*/
+#hero-container {
+  flex: 0 0 20%;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+#hero::before {
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  top: 25%;
+  left: 10%;
+  color: var(--font-color);
+  font-family: 'Qwigley', 'Herr Von Muellerhoff', cursive;
+  font-size: calc(7em + 3vh);
+  animation-name: hero;
+  animation-duration: 20s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.15, 0.9, 0.2, 1);
+  content: "";
+  --word1: "S";
+  --word2: "St";
+  --word3: "Stu";
+  --word4: "Stud";
+  --word5: "Study";
+  --word6: "Study N";
+  --word7: "Study No";
+  --word8: "Study Not";
+  --word9: "Study Note";
+  --word10: "Study Notes";
+}
+
+@keyframes hero {
+  0% {content: var(--word1);}
+  1% {content: var(--word2);}
+  2% {content: var(--word3);}
+  3% {content: var(--word4);}
+  4% {content: var(--word5);}
+  5% {content: var(--word6);}
+  6% {content: var(--word7);}
+  7% {content: var(--word8);}
+  8% {content: var(--word9);}
+  9% {content: var(--word10);}
+  100% {content: var(--word10);}
+}
+
+/*container for notebooks*/
+#notebooks-container {
+    flex: 0 0 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+/*a links are the flex items, directly below notebook containers (flexbox)*/
+a { 
+  flex: 0 0 28%;
+  margin: 20px 20px 10px 20px;
+}
+
+/*individual notebook*/
+.notebook {
+    height: 340px;
+    width: auto;
+    overflow: visible;
+    position: relative;
+    background-image: url(../images/notepad_lined.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.notebook p {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 200%;
+    font-weight: bold;
+    position: relative;
+    top: 20%;
+    left: 18%;
+}
+
+.notebook:hover {
+  color: var(--red-color);
+  font-size: 120%;
+}
+
