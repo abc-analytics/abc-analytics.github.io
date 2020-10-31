@@ -58,16 +58,17 @@ body {
 }
 
 @keyframes hero {
-  0% {content: var(--word1);}
-  1% {content: var(--word2);}
-  2% {content: var(--word3);}
-  3% {content: var(--word4);}
-  4% {content: var(--word5);}
-  5% {content: var(--word6);}
-  6% {content: var(--word7);}
-  7% {content: var(--word8);}
-  8% {content: var(--word9);}
-  9% {content: var(--word10);}
+  0% {content: "";}
+  1% {content: var(--word1);}
+  2% {content: var(--word2);}
+  3% {content: var(--word3);}
+  4% {content: var(--word4);}
+  5% {content: var(--word5);}
+  6% {content: var(--word6);}
+  7% {content: var(--word7);}
+  8% {content: var(--word8);}
+  9% {content: var(--word9);}
+  10% {content: var(--word10);}
   100% {content: var(--word10);}
 }
 
@@ -108,7 +109,7 @@ a {
     font-weight: bold;
     position: relative;
     top: 20%;
-    left: 18%;
+    left: 20%;
 }
 
 .notebook:hover {
