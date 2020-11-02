@@ -76,7 +76,7 @@ body {
   100% {content: var(--word10);}
 }
 #hero::after {
-  z-index: 2;
+  z-index: 0;
   position: absolute;
   width: 30%;
   height: 40%;
