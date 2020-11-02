@@ -120,7 +120,7 @@ body {
     content: "";
     opacity: 0%;
     animation-duration: 35s;
-    animation-delay: 3s;
+    animation-delay: 3.5s;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(0.15, 0.9, 0.2, 1);
     font-size: 2.5rem;
