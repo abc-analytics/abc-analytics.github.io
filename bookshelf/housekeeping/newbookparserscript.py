@@ -1,9 +1,9 @@
 #a script to read new book info from a csv file into relevant list variables; it then inputs them into a new-book html format by reading and rewriting it line-by-line to another html file. The # of book-placeholder must match the # of books to input. 
 import csv
 
-csvfile = open("C:/Users/bluer/Dropbox/ABC Analytics/Website/books/abc_csv.txt", "r", encoding="utf-8") #the csv file to scan book data from
-readfile = open("C:/Users/bluer/Dropbox/ABC Analytics/Website/books/abooks.html", "r", encoding="utf-8") #the new-book placeholder 
-writefile = open("C:/Users/bluer/Dropbox/ABC Analytics/Website/books/otherstatisticsbooks.html", "w", encoding="utf-8") #the new-book file, final output
+csvfile = open("C:/Users/bluer/Dropbox//Website/books/abc_csv.txt", "r", encoding="utf-8") #the csv file to scan book data from
+readfile = open("C:/Users/bluer/Dropbox//Website/books/abooks.html", "r", encoding="utf-8") #the new-book placeholder 
+writefile = open("C:/Users/bluer/Dropbox//Website/books/otherstatisticsbooks.html", "w", encoding="utf-8") #the new-book file, final output
 
 csvreader = csv.reader(csvfile, quotechar='"') #wrap csvfile in csvreader
 

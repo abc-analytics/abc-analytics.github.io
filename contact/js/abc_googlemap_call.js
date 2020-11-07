@@ -14,7 +14,7 @@ $(document).ready( function() {
         position: new google.maps.LatLng(53.96144, -2.0168), //the location coordinates
         icon: "https://i.ibb.co/HNYVYjM/map-cursor.png",
         map: map,
-        title: "Applied Bayesian Capital",
+        title: "Calton Hill",
         optimized: false
     });
 

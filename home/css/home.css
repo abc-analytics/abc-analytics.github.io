@@ -19,13 +19,13 @@ body {
     --bg-color: 255,255,255;
     background-color: rgba(var(--bg-color),1);
     z-index: 1;
-    animation: bg-image 10s ease-in forwards;
+    animation: bg-image 5s ease-in forwards;
 }
 
 /*the underneath background layer*/
 #landing-page::before {
     content: "";
-    background-image: url("../images/cover.jpg"); /*default to portrait version*/
+    background-image: url("../images/calton_portrait.jpg"); /*default to portrait version*/
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -36,7 +36,7 @@ body {
     z-index: -1;
 } 
 /*change attributes for landscape viewport*/
-@media (orientation: landscape) {#landing-page::before {background-image: url("../images/cover-landscape.jpg");} }
+@media (orientation: landscape) {#landing-page::before {background-image: url("../images/calton_landscape.jpg");} }
 
 #box {
     width: 100%;
@@ -45,6 +45,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    white-space: normal;
 }
 
 #box1 {
@@ -102,7 +103,7 @@ body {
 
 @keyframes bg-image {
     0% {background-color: rgba(var(--bg-color),1)}
-    100% {background-color: rgba(var(--bg-color),0.7)}
+    100% {background-color: rgba(var(--bg-color),0.9)}
 }
 
 #box2 {
@@ -117,6 +118,7 @@ body {
 
 #slot1::before, #slot2::before, #slot3::before {
     text-transform: uppercase;
+    white-space: pre;
     content: "";
     opacity: 0%;
     animation-duration: 35s;
@@ -128,9 +130,9 @@ body {
     --word1_1: "naive";
     --word2_1: "ignorant";
     --word3_1: "foolish";
-    --word1_2: "applied";
-    --word2_2: "   bayesian";
-    --word3_2: "   capital";
+    --word1_2: "calton";
+    --word2_2: " hill";
+    --word3_2: "";
 }
 
 /*::before/after animation and transition are not supported in safari*/
@@ -143,9 +145,9 @@ body {
     5% {content: var(--word1_1); opacity: 1;font-size: 2.5rem;}
     10% {content: var(--word1_1); opacity: 0;font-size: 2.5rem;}
     30% {content: var(--word1_1); opacity: 0;font-size: 2.5rem;}
-    31% {content: var(--word1_2); opacity: 0; font-size: 3rem;}
-    90% {content: var(--word1_2); opacity: 1; font-size: 3rem;}
-    100% {content: var(--word1_2); opacity: 0; font-size: 3rem;}
+    31% {content: var(--word1_2); opacity: 0; font-size: 3.0rem;}
+    90% {content: var(--word1_2); opacity: 1; font-size: 3.0rem;}
+    100% {content: var(--word1_2); opacity: 0; font-size: 3.0rem;}
 }
 
 @keyframes slot2 {
@@ -153,9 +155,9 @@ body {
     20% {content: var(--word2_1); opacity: 0; font-size: 2.5rem;}
     25% {content: var(--word2_1); opacity: 1; font-size: 2.5rem;}
     30% {content: var(--word2_1); opacity: 0; font-size: 2.5rem;}
-    31% {content: var(--word2_2); opacity: 0; font-size: 3rem;}
-    90% {content: var(--word2_2); opacity: 1; font-size: 3rem;}
-    100% {content: var(--word2_2); opacity: 0; font-size: 3rem}
+    31% {content: var(--word2_2); opacity: 0; font-size: 3.0rem;}
+    90% {content: var(--word2_2); opacity: 1; font-size: 3.0rem;}
+    100% {content: var(--word2_2); opacity: 0; font-size: 3.0rem;}
 }
 
 @keyframes slot3 {
@@ -164,9 +166,9 @@ body {
     15% {content: var(--word3_1); opacity: 1; font-size: 2.5rem;}
     20% {content: var(--word3_1); opacity: 0; font-size: 2.5rem;}
     30% {content: var(--word3_1); opacity: 0; font-size: 2.5rem;}
-    31% {content: var(--word3_2); opacity: 0; font-size: 3rem;}
-    90% {content: var(--word3_2); opacity: 1; font-size: 3rem;}
-    100% {content: var(--word3_2); opacity: 0; font-size: 3rem;}
+    31% {content: var(--word3_2); opacity: 0; font-size: 3.0rem;}
+    90% {content: var(--word3_2); opacity: 1; font-size: 3.0rem;}
+    100% {content: var(--word3_2); opacity: 0; font-size: 3.0rem;}
 }
 
 

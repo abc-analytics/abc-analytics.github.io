@@ -1,8 +1,8 @@
 #a script to parse old html file for each book title and box file link, save them to a new csv file, which will later be used to feed into new html format
 import csv
 
-old = open("C:/Users/bluer/Dropbox/ABC Analytics/Website/books/deprecated version/otherstatbook.html", "r", encoding="utf-8") #the old html file to parse
-new = open("C:/Users/bluer/Dropbox/ABC Analytics/Website/books/abc_csv.txt", "w", encoding="utf-8") #the new csv file to save
+old = open("C:/Users/bluer/Dropbox//Website/books/deprecated version/otherstatbook.html", "r", encoding="utf-8") #the old html file to parse
+new = open("C:/Users/bluer/Dropbox//Website/books/abc_csv.txt", "w", encoding="utf-8") #the new csv file to save
 
 #function identifying, extracting and returning the link portion of a line input
 def linkSearch(thisline):
