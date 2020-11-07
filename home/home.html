@@ -8,7 +8,7 @@ using: manually written html/css
 <html>
     <head>
         <title>
-            Calton Hill 
+            Calton Hill :: Home 
         </title>
         
         <!--styling, internal files-->
@@ -16,8 +16,11 @@ using: manually written html/css
         <link rel="icon" type="image/png" href="../assets/images/favicon.png">
         <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
         
-        <!--jquery-->
+        <!--external scripts-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!--jquery-->
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!--particles animation script and its related call script-->
+        <script src="js/particlesJSHelper.js"></script>
+        
         <!--script to load navigation menu into #nav-menu-container-->
         <script src="../assets/js/navbar.js"></script>
 
@@ -47,8 +50,9 @@ using: manually written html/css
       <!--main page, page contents-->
       <main id="mainpage-container">
 
-          <div id="landing-page">
-          <div id="box">
+          <!--full-page landing page-->
+          <section id="landing-page">
+            <div id="box">
 
               <section id="box1">
                   <div>
@@ -65,8 +69,146 @@ using: manually written html/css
                   </div>
               </section>
 
-          </div>         
+             </div>         
+          </section>
+          
+
+
+          
+      <!--introduction/about below landing page-->  
+      <main id="about-page-container">
+        <!--each part as a section, in which broken into a hero div and a contents div-->
+
+
+        <section id="about-basics" class="about">
+          <div class="hero">
+            <div id="particles-js"></div>
           </div>
+
+          <div class="contents">
+            <h1>Drunken Walk</h1>
+            <p>If life is a random walk highly sensitive to initial condition, my realised path has largely been sub-optimal.  </p>
+            <p>My intellectual interests include statistical inference, stochastic processes, probabilistic graphical models, dynamical systems, time series econometrics, and genetic algorithms. </p>
+          </div>
+            
+        </section>
+
+
+        <section id="about-bayesian" class="about">
+
+          <div class="contents">
+            <h1> Bayesian Bread and Butter </h1>
+            <p>I think risky inductive reasoning is much more appropriate than objective deductive logic in learning about and navigating a chaotic environment. </p>
+
+          </div>
+
+          <div id="bayesian-hero" class="hero">
+            <div id="bayesian-hero-bg"></div>
+          </div>
+            
+        </section>
+
+        <!--what I do in a typically day-->
+        <section id="about-daily" class="about">
+          <!--hero in this section is a code snippet, formatted using html <pre> to imitate code lines, with common-ide colors added using <span class="color">-->
+          <div id="daily-hero" class="hero"> 
+
+          <pre>
+            
+          
+            
+      <span class="red">while</span> (<span class="green">alive</span>) {
+        <span class="blue">Day</span> <span class="green">today</span> = <span class="red">new</span> Day(); <span class="gray">//everyday is a new instance</span>
+        <span class="green">today</span>.<span class="purple">eat</span>(<span class="blue">Menu.SALAD</span>);
+        <span class="green">today</span>.<span class="purple">read</span>(<span class="green">books</span>.pop());
+        <span class="green">today</span>.<span class="purple">code</span>(<span class="green">projects</span>.pop());
+        <span class="green">marketOpen</span> <span class="red">?</span> <span class="green">today</span>.<span class="purple">trade</span>() <span class="red">:</span> <span class="green">today</span>.<span class="purple">code</span>(<span class="green">projects</span>.pop());
+        <span class="red">try</span> {
+          <span class="blue">Person</span> <span class="green">mate</span> = Math.<span class="purple">random</span>()>0.5 <span class="red">?</span> <span class="green">yourMom</span> <span class="red">:</span> <span class="green">myWife</span>;
+          <span class="green">today</span>.<span class="purple">fuck</span>(<span class="green">mate</span>);
+        }
+        <span class="red">catch</span> (<span class="blue">Exception</span> <span class="green">ex</span>) {
+          <span class="green">logger</span>.<span class="purple">error</span>("oops", <span class="green">ex</span>);
+        }
+        <span class="red">finally</span> {
+          <span class="green">today</span>.<span class="purple">shower</span>();
+        }
+        <span class="green">today</span>.<span class="purple">sleep</span>();
+      }               
+          </pre>
+              <div id="daily-hero-highlighter"></div>
+          </div>
+
+
+          <div class="contents">
+
+            <h1>Read, Code, Trade, Repeat.</h1>
+
+            <p>York is a systematic strategy. </p>
+            <p>Waterloo is a statistical strategy. </p>
+            <p>Skipton is a volatility strategy.</p>
+            <p>Aberdeen is an energy strategy.</p> 
+            
+          </div>            
+        </section>
+
+
+        <section id="about-language" class="about">
+
+          <div id="" class="contents">
+            <h1>Old, Verbose, Unfunctional</h1>
+            <p>As a traditional finance guy without any formal programming training and experience, I self-learn programming from books and VS Code. </p>
+            <p>I've adopted <a href="https://docs.oracle.com/en/java/javase/15/">Java</a> as my primary language. As a newbie coder, I am yet to dive into the functional programming paradigm and solely focus on object-oriented thinking. Despite complaints about Java's legacy baggage and verbosity, I find it an excellent first langauge because it is formal and structured. I think its verbosity and strong/static-typing help familiarise myself with code logic and clarity. </p>
+            <p>For data analysis and prototyping, I use <a href="https://www.gnu.org/software/octave/">Octave</a>, <a href="https://www.r-project.org/">R</a>, <a href="https://www.python.org/">Python</a>, <a href="https://mc-stan.org/">Stan</a>, <a href="http://mcmc-jags.sourceforge.net/">Jags</a>/<a href="https://www.mrc-bsu.cam.ac.uk/software/bugs/">Bugs</a>. The vast and high-quality libraries their communities have contributed are invaluable and indispensable.  </p>
+            <p>To build web stuff, I use Javascript, Node, Ruby, Java.</p>
+            <p>On the natural language front, I am conversant in English, Japanese, and Chinese (Mandarin and Cantonese), and have put Spanish on my laundry list.</p>
+
+
+          </div>
+
+          <div id="language-hero" class="hero">
+            <div id="language-dog"></div> 
+          </div>
+          
+        </section>
+
+        
+        <section id="about-revolution" class="about">
+
+          <div id="revolution-hero" class="hero">
+            <div id="revolution-hero-bg"></div>            
+          </div>
+
+
+          <div id="" class="contents">
+            <h1>Technology is Democracy</h1>
+            <p>Fairness and democracy are theoretical ideals in this structurally rigged world. Others have more money, more power, more connections. We are underdogs. We work much harder for much less. They do business on relationship. My data are already relational. They call their connections for favours. My codes call APIs for data. They like networking and handshaking with who's who. My programs are constantly networking and handshaking with MySQL.</p> 
+            <p>All I have are a pair of working hands, a functioning brain, and a von Neumann machine. Imagination is innate. Knowledge is unbiased. Technology is empowerment. Data simulate experience. These are my sole weapons to levelling the playing field. </p>
+          </div>        
+            
+        </section>   
+
+
+
+        <section id="about-minimalism" class="about">
+
+          <div id="" class="contents">
+            <h1>Less is More</h1>
+            <p>Materialism and consumption-driven model have substantially enhanced living standards and expanded that hypothetical productivity frontier. More options are often better indeed, if <i>other things</i> are equal, which are not. Excessive optionality has become noise, drowning out the signals. Intrinsically meaningless status-quo becomes the unquestioned way of life or goal in life. People's values are altered in exchange for materials. Instead of having more, doing more with less is what we should aim for. </p>
+            <p>We are born naked and leave naked. That's rare fairness at endpoints. In between, I think one should strive to uphold his beliefs and values as well as single-mindedly pursuing his signals. As mere mortals, subjective life meanings are objectively meaningless and the objective function should be to minimise regrets rather than to maximise variables. That way, at least one can have something to self-illude rather than manipulated by outside forces. As <i><a href="https://en.wikipedia.org/wiki/Albert_Camus">Albert Camus</a></i> said, life is essentially absurd and one should rebel the meaninglessness by living and thinking freely.</p>   
+          </div>
+
+          <div id="minimalism-hero" class="hero">
+            <div id="minimalism-hero-bg"></div>            
+          </div>
+         
+            
+        </section>        
+
+
+
+      </main>
+      <!--end of introduction/about-->
 
       </main>
       <!--end of main page contents-->
