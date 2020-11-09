@@ -127,7 +127,7 @@ body {
 
 #slot1::before, #slot2::before, #slot3::before {
     text-transform: uppercase;
-    white-space: normal;
+    white-space: nowrap;
     content: "";
     opacity: 0%;
     animation-duration: 35s;
@@ -139,9 +139,9 @@ body {
     --word1_1: "wolf";
     --word2_1: "tiger";
     --word3_1: "fox";
-    --word1_2: "labradors";
-    --word2_2: " are";
-    --word3_2: " awesome";
+    --word1_2: "labradors ";
+    --word2_2: " are ";
+    --word3_2: " awesome ";
 }
 
 /*::before/after animation and transition are not supported in safari*/
