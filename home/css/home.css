@@ -140,8 +140,8 @@ body {
     --word2_1: "tiger";
     --word3_1: "fox";
     --word1_2: "labradors";
-    --word2_2: "are";
-    --word3_2: "awesome";
+    --word2_2: " are";
+    --word3_2: " awesome";
 }
 
 /*::before/after animation and transition are not supported in safari*/
