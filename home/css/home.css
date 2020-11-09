@@ -34,7 +34,7 @@ body {
 /*the underneath background layer*/
 #landing-page::before {
     content: "";
-    background-image: url("../images/calton_portrait.jpg"); /*default to portrait version*/
+    background-image: url("../images/cover.jpg"); /*default to portrait version*/
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute; 
@@ -45,7 +45,7 @@ body {
     z-index: -1;
 } 
 /*change attributes for landscape viewport*/
-@media (orientation: landscape) {#landing-page::before {background-image: url("../images/calton_landscape.jpg");} }
+@media (orientation: landscape) {#landing-page::before {background-image: url("../images/cover-landscape.jpg");} }
 
 #box {
     width: 100%;
@@ -136,12 +136,12 @@ body {
     animation-timing-function: cubic-bezier(0.15, 0.9, 0.2, 1);
     font-size: 2.5rem;
     font-weight: bold;
-    --word1_1: "naive";
-    --word2_1: "ignorant";
-    --word3_1: "foolish";
-    --word1_2: "calton";
-    --word2_2: " hill";
-    --word3_2: "";
+    --word1_1: "wolf";
+    --word2_1: "tiger";
+    --word3_1: "dog";
+    --word1_2: "labradors";
+    --word2_2: " are";
+    --word3_2: "awesome";
 }
 
 /*::before/after animation and transition are not supported in safari*/
