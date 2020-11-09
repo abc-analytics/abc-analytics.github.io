@@ -112,7 +112,7 @@ body {
 
 @keyframes bg-image {
     0% {background-color: rgba(var(--bg-color),1)}
-    100% {background-color: rgba(var(--bg-color),0.9)}
+    100% {background-color: rgba(var(--bg-color),0.7)}
 }
 
 #box2 {
@@ -127,7 +127,7 @@ body {
 
 #slot1::before, #slot2::before, #slot3::before {
     text-transform: uppercase;
-    white-space: pre;
+    white-space: normal;
     content: "";
     opacity: 0%;
     animation-duration: 35s;
@@ -138,9 +138,9 @@ body {
     font-weight: bold;
     --word1_1: "wolf";
     --word2_1: "tiger";
-    --word3_1: "dog";
+    --word3_1: "fox";
     --word1_2: "labradors";
-    --word2_2: " are";
+    --word2_2: "are";
     --word3_2: "awesome";
 }
 
